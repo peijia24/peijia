@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+.name-logo{
+  margin-left: 3%;
+}
+
 .name-logo h1 {
 text-transform: uppercase;
 font-weight: thin;
