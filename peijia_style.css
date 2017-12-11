@@ -1,3 +1,790 @@
-body {
-	color: aliceblue;
+@charset "utf-8";
+/*Style sheet for UPDATED Landing Page*/
+
+html {
+  box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
+  display:flex;
+  background-color: white;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-wrapper {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.name-logo h1 {
+text-transform: uppercase;
+font-weight: thin;
+margin: 0 auto;
+font-size: 45px;
+margin-left: 15%;
+}
+
+.name-logo h2 {
+margin-left: 15%;
+font-size: 23px;
+}
+
+.header-section {
+  display: flex;
+  align-content: space-between;
+  margin-top: 2em;
+  width: 100%;
+}
+
+/*.header-section h1 {
+  margin-left: 9%;
+  margin-top: 2%;
+  font-size: 45px;
+}*/
+
+.header-section a {
+  display: flex;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  justify-content: space-around;
+  /*margin-left: 10%;*/
+ }
+
+.header-section nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.header-section nav {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.page-nav {
+  max-width: 98%;
+}
+
+.page-nav a {
+  text-decoration: underline;
+}
+
+.html-stuff a, .javascript a, .responsive a, .php a, .wordpress a, .external a {
+  background-image: linear-gradient(to right, rgba(72,209,204,0) 50%, #AFEEEE 50%);
+  background-position: -0% 0;
+  background-size: 202% auto;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.15em;
+  /*text-decoration: none;*/
+  transition: background-position 0.5s ease-out;
+  width:100%;
+}
+
+.php a {
+  background-size: 204% auto;
+}
+
+.html-stuff a:hover, .javascript a:hover, .responsive a:hover, .php a:hover, .wordpress a:hover, .external a:hover {
+  background-position: -99.99% 0;
+  width:100%;
+/*  border: 1px black solid;*/
+}
+
+/*.html-stuff a, .php a {
+  text-transform: uppercase;
+}*/
+/*end of header nav section*/
+
+/*.lower-header h2 {
+  margin: 0 auto;
+  margin-left: 4%;
+  margin-top: 1%;
+}*/
+
+/* free draw window*/
+#c {
+  outline: 1px solid #fff; 
+  background: orange;
+  display: block;
+  height: 375px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#colors {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2%;
+}
+
+.drawbox h3 {
+  text-align: center;
+}
+
+.drawbox p {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+#drawBtn {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+/* memphis background images */
+    /*.memphis-01 {
+        background-image: url("../images/memphis-cropped-t01.gif")
+        max-width: 25%;
+        height: 100%;
+        display: flex;
+        z-index: -5;
+        background-attachment: fixed;
+        background-size: cover;
+        float: left;
+        overflow: hidden;
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+
+    .memphis-02 {
+        background-image: url("../images/memphis-edit-t02.gif")
+        max-width: 25%;
+        height: 100%;
+        display: flex;
+        z-index: -10;
+        background-attachment: fixed;
+        background-size: cover;
+        float: right;
+        overflow: hidden;
+        padding-top: 80px;
+    }*/
+/* end of memphis background images */
+
+/* content box css */
+body {
+  font-family: 'Dosis', sans-serif;
+  background: white;
+  font-weight:300;
+}
+
+.box {
+  width: 500px;
+  height: 330px;
+  position: relative;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:5rem auto;
+  padding-left:0px;
+  overflow:hidden;
+  -webkit-box-shadow:7px 7px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow:   7px 7px 0px rgba(0,0,0,0.2);
+  box-shadow:        7px 7px 0px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+  display: block;
+}
+
+
+.box:hover  {
+  padding-left:100px;
+  -webkit-box-shadow:3px 3px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:   3px 3px 0px rgba(0,0,0,0.5);
+  box-shadow:        3px 3px 0px rgba(0,0,0,0.5);
+}
+
+.box-container {
+  margin: 0 auto;
+}
+
+.box .section-box {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.box .section-html {
+  background-color: lightblue;
+}
+
+.box .section-html {
+  z-index: 1;
+}
+
+.box .section-js {
+  background-color: #93D5D6;
+}
+
+.box .section-php {
+  background-color: #6E9FA1;
+}
+
+.box .section-wordpress {
+  background-color: #94BBDC;
+}
+
+.box .section-external {
+  background-color: #C1D8F0;
+}
+
+.box:before {
+  display: block;
+  padding:10px;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px skyblue,
+                     2px 2px 0px skyblue,
+                     3px 3px 0px skyblue;
+  -moz-box-shadow:1px 1px 0px skyblue,
+                  2px 2px 0px skyblue,
+                  3px 3px 0px skyblue;
+  box-shadow:1px 1px 0px skyblue,
+             2px 2px 0px skyblue,
+             3px 3px 0px skyblue;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+}
+
+/* start of html white sliding box*/
+.box .html-projects:before  {
+  content:'Level 1: HTML/CSS';
+  color:#000;
+  top:13px;
+  right:13px;
+  padding:10px;
+  background:white;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px #3784C7,
+                     2px 2px 0px #3784C7,
+                     3px 3px 0px #3784C7;
+  -moz-box-shadow:1px 1px 0px #3784C7,
+                  2px 2px 0px #3784C7,
+                  3px 3px 0px #3784C7;
+  box-shadow:1px 1px 0px #3784C7,
+             2px 2px 0px #3784C7,
+             3px 3px 0px #3784C7;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+  display: block;
+  position: absolute;
+}
+
+.box .html-projects:hover:before  {right:-300px;}
+/*end of html white sliding box*/
+
+ /* start of js white sliding box*/
+.box .js-projects:before  {
+  content:'Level 2: Javascript';
+  color:#000;
+  top:13px;
+  right:13px;
+  padding:10px;
+  background:white;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px #184B57,
+                     2px 2px 0px #184B57,
+                     3px 3px 0px #184B57;
+  -moz-box-shadow:1px 1px 0px #184B57,
+                  2px 2px 0px #184B57,
+                  3px 3px 0px #184B57;
+  box-shadow:1px 1px 0px #184B57,
+             2px 2px 0px #184B57,
+             3px 3px 0px #184B57;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+  display: block;
+  position: absolute;
+}
+
+.box .js-projects:hover:before  {right:-300px;}
+/* end of js white sliding box */
+
+/* start of php white sliding box */
+.box .php-projects:before  {
+  content:'Level 3: PHP';
+  color:#000;
+  top:13px;
+  right:13px;
+  padding:10px;
+  background:white;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px #506C75,
+                     2px 2px 0px #506C75,
+                     3px 3px 0px #506C75;
+  -moz-box-shadow:1px 1px 0px #506C75,
+                  2px 2px 0px #506C75,
+                  3px 3px 0px #506C75;
+  box-shadow:1px 1px 0px #506C75,
+             2px 2px 0px #506C75,
+             3px 3px 0px #506C75;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+  display: block;
+  position: absolute;
+}
+
+.box .php-projects:hover:before  {right:-300px;}
+/* end of php white sliding box */
+
+/* start of wordpress white sliding box */
+.box .wordpress-projects:before  {
+  content:'Level 4: Wordpress';
+  color:#000;
+  top:13px;
+  right:13px;
+  padding:10px;
+  background:white;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px #777FB8,
+                     2px 2px 0px #777FB8,
+                     3px 3px 0px #777FB8;
+  -moz-box-shadow:1px 1px 0px #777FB8,
+                  2px 2px 0px #777FB8,
+                  3px 3px 0px #777FB8;
+  box-shadow:1px 1px 0px #777FB8,
+             2px 2px 0px #777FB8,
+             3px 3px 0px #777FB8;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+  display: block;
+  position: absolute;
+}
+
+.box .wordpress-projects:hover:before  {right:-300px;}
+/* end of wordpress white sliding box */
+
+/* start of external white sliding box */
+.box .external-projects:before  {
+  content:'Level 5: Client Project';
+  color:#000;
+  bottom:13px;
+  right:13px;
+  padding:10px;
+  background:white;
+  letter-spacing:2px;
+  font-size:1rem;
+  font-weight:600;
+  text-transform:uppercase;
+  -webkit-box-shadow:1px 1px 0px #609FDB,
+                     2px 2px 0px #609FDB,
+                     3px 3px 0px #609FDB;
+  -moz-box-shadow:1px 1px 0px #609FDB,
+                  2px 2px 0px #609FDB,
+                  3px 3px 0px #609FDB;
+  box-shadow:1px 1px 0px #609FDB,
+             2px 2px 0px #609FDB,
+             3px 3px 0px #609FDB;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -ms-transition:     all 0.5s;
+  -o-transition:      all 0.5s;
+  transition:         all 0.5s;
+  display: block;
+  position: absolute;
+}
+
+.box .external-projects:hover:before {
+right:-300px;}
+/* end of white external sliding box*/
+
+.head {
+  height:100%;
+  width:650px;
+  top:0px;
+  left:-155px;
+  margin:0px;
+  padding-left:20px;
+  background:transparent;
+  -webkit-transition: all 0.45s;
+  -moz-transition:    all 0.45s;
+  -ms-transition:     all 0.45s;
+  -o-transition:      all 0.45s;
+  transition:         all 0.45s;
+}
+.head:hover {
+  left: 20px;
+}
+.caption {
+  height:100%;
+  padding:15px 20px 0px 0px;
+}
+
+h4 {
+  font-size:2rem;
+  font-weight:300;
+  line-height:2.4rem;
+  padding: 30px 0 0 30px;
+  margin:0px;
+  text-transform:uppercase;
+}
+
+h5 {
+  padding: 5px 0 0 35px;
+  margin:0px;
+  font-size:1.2rem;
+  font-weight:600;
+  font-variant:small-caps;
+  letter-spacing:1px;
+}
+
+ul {
+  list-style-type:none;
+  list-style-position:inside;
+  margin:0px;
+  padding:0px;
+}
+
+ul li {
+  margin:0px;
+  padding-left:35px;  
+  font-size:1.2rem;
+  line-height:1.6rem;
+}
+
+ul li a {
+  margin-top:0px;
+  color:#000;
+  text-decoration:none;
+  padding-left:0px; 
+  -webkit-transition: all 0.1s;
+  -moz-transition:    all 0.1s;
+  -ms-transition:     all 0.1s;
+  -o-transition:      all 0.1s;
+  transition:         all 0.1s;
+}
+
+.box ul li a:hover {
+  padding-left:5px;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+/*end of content box css*/
+
+/* footer info here*/
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.linkedin-title a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 205% auto;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+  width:100%;
+}
+
+.linkedin-title a:hover {
+  background-position: -99.99% 0;
+  width:100%;
+}
+
+.portfolio a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 202% auto;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+  width:100%;
+}
+
+.portfolio a:hover {
+  background-position: -99.99% 0;
+  width:100%;
+}
+
+.col-1, .col-2, .col-3 {
+  padding: 20px;
+}
+/* end of footer info*/
+
+/* media queries */
+
+@media only screen  and (min-width: 1824px) {
+
+.wrapper {
+  min-width: 100%;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  
+.page-nav a {
+  width: 100%;
+}
+
+.page-nav ul a {
+  height: 100%;
+}
+  
+.wrapper {
+  height: 80%;
+  min-width: 96%;
+}
+
+.gif-name {
+  width: 100%;
+  min-height: 100%;
+}
+
+.page-nav ul {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    align-items: center;  
+    justify-content: space-around;
+  }
+
+.header-section img nav li {
+  margin: 0 auto;
+}
+
+.header-section {
+    align-items: center;
+}
+
+.memphis-01 img {
+  display: none;
+}
+
+.memphis-02 img {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 700px) { 
+
+.box {
+  width: 100%;
+  height: 350px;
+  }
+
+.headers-section {
+  position: relative;
+}
+
+.header-section nav {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.page-nav {
+  position: absolute;
+  top: 20%;
+  bottom: 10%;
+  margin: 0 auto;
+}
+
+.page-nav ul {
+  margin-bottom: 20px;
+}
+
+.memphis-01 img {
+  display: none;
+}
+
+.memphis-02 img {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 699px) {
+
+/*.gif-name {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}*/
+
+.header-section nav {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.box {
+  margin-top: 125px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.box {
+  width: 100%;
+  height: 350px;
+  top: 40px;
+  }
+
+.headers-section {
+  position: relative;
+}
+
+.header-section nav {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.page-nav {
+  position: absolute;
+  top: 20%;
+  bottom: 10%;
+  margin: 0 auto;
+}
+
+.page-nav ul {
+  margin-bottom: 10%;
+}
+
+.gif-name {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+  
+.wrapper {
+  min-width: 100%;
+  }
+/*
+.header-section nav {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+  padding-top: 60px;
+}*/
+
+.page-nav ul a {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  flex-basis: 100%;
+
+}
+
+.page-nav {
+  order: 1;
+  max-height: 90%;
+  max-width: 90%;
+}
+
+.gif-name {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100%;
+  height: 350px;
+}
+
+.col-1{
+  display: block;
+/*position: fixed;*/
+/*  position: relative;*/
+}
+
+/*.col-2, .col-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 30px;
+  float: left;
+  min-width: 50%;
+  position: relative;
+}
+
+.col-3 {
+  display: flex;
+  padding: 20px;
+}*/
+}
+
+/* end of media queries */
+      
