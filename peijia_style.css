@@ -533,7 +533,7 @@ footer a {
   text-decoration: none;
 }
 
-.linkedin-title a {
+/*.linkedin-title a {
   background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
   background-position: -0% 0;
   background-size: 205% auto;
@@ -543,14 +543,44 @@ footer a {
   text-decoration: none;
   transition: background-position 0.5s ease-out;
   width:100%;
+}*/
+
+.contact {
+  display: block;
+  margin: 0 auto;
+  background-color: #8db6cd;
+  width: 300px;
+  padding: 50px;
 }
 
-.linkedin-title a:hover {
+.contact p {
+  text-align: center;
+}
+
+.about {
+  display: inline-flex;
+  margin: 0 auto;
+  /*width: 1200px;*/
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.about-description {
+  margin-left: 3%;
+}
+
+/*.all-about{
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}*/
+
+/*.linkedin-title a:hover {
   background-position: -99.99% 0;
   width:100%;
-}
+}*/
 
-.portfolio a {
+/*.portfolio a {
   background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
   background-position: -0% 0;
   background-size: 202% auto;
@@ -565,7 +595,7 @@ footer a {
 .portfolio a:hover {
   background-position: -99.99% 0;
   width:100%;
-}
+}*/
 
 .col-1, .col-2, .col-3 {
   padding: 20px;
