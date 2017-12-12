@@ -281,7 +281,7 @@ body {
 
 /* start of html white sliding box*/
 .box .html-projects:before  {
-  content:'Level 1: HTML/CSS';
+  content:'My current projects';
   color:#000;
   top:13px;
   right:13px;
