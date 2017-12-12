@@ -698,21 +698,3 @@ footer a {
 
 
 /* end of media queries */
-
-.memphis {
-  display: flex;
-  flex-direction: column;
-  z-index: 200;
-  margin-left: 10%;
-}
-
-.m01 img{
-  z-index: -100;
-  margin-left: 5%;
-}
-
-/*.m02 {
-  z-index: -150;
-  float: left;
-}
-    */  
