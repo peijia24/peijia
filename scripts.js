@@ -67,6 +67,12 @@ $('#c').mousedown(function() {
    started = false;
 });
 
+var clearBtn = document.getElementById('drawBtn');
+
+clearBtn.addEventListener('click',function(){
+  context.clearRect(0, 0, canvas.width, canvas.height);
+});
+
 // var button = document.getElementById("drawBtn");
 // button.addEventListener("click",function(e){
 // 	document.getElementById("#c").reset();
