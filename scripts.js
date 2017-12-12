@@ -70,7 +70,7 @@ $('#c').mousedown(function() {
 var clearBtn = document.getElementById('drawBtn');
 
 clearBtn.addEventListener('click',function(){
-  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.reset(0, 0, canvas.width, canvas.height);
 });
 
 
