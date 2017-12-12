@@ -49,12 +49,6 @@ font-size: 23px;
   width: 100%;
 }
 
-/*.header-section h1 {
-  margin-left: 9%;
-  margin-top: 2%;
-  font-size: 45px;
-}*/
-
 .header-section a {
   display: flex;
   letter-spacing: 2px;
@@ -62,7 +56,6 @@ font-size: 23px;
   color: black;
   text-decoration: none;
   justify-content: space-around;
-  /*margin-left: 10%;*/
  }
 
 .header-section nav ul {
@@ -95,7 +88,6 @@ font-size: 23px;
   color: #222;
   font-size: 1em;
   line-height: 1.15em;
-  /*text-decoration: none;*/
   transition: background-position 0.5s ease-out;
   width:100%;
 }
@@ -107,19 +99,7 @@ font-size: 23px;
 .html-stuff a:hover, .javascript a:hover, .responsive a:hover, .php a:hover, .wordpress a:hover, .external a:hover {
   background-position: -99.99% 0;
   width:100%;
-/*  border: 1px black solid;*/
 }
-
-/*.html-stuff a, .php a {
-  text-transform: uppercase;
-}*/
-/*end of header nav section*/
-
-/*.lower-header h2 {
-  margin: 0 auto;
-  margin-left: 4%;
-  margin-top: 1%;
-}*/
 
 /* free draw window*/
 #c {
@@ -154,35 +134,6 @@ font-size: 23px;
   margin: 0 auto;
   margin-top: 2%;
 }
-
-/* memphis background images */
-    /*.memphis-01 {
-        background-image: url("../images/memphis-cropped-t01.gif")
-        max-width: 25%;
-        height: 100%;
-        display: flex;
-        z-index: -5;
-        background-attachment: fixed;
-        background-size: cover;
-        float: left;
-        overflow: hidden;
-        margin-left: 100px;
-        padding-top: 20px;
-    }
-
-    .memphis-02 {
-        background-image: url("../images/memphis-edit-t02.gif")
-        max-width: 25%;
-        height: 100%;
-        display: flex;
-        z-index: -10;
-        background-attachment: fixed;
-        background-size: cover;
-        float: right;
-        overflow: hidden;
-        padding-top: 80px;
-    }*/
-/* end of memphis background images */
 
 /* content box css */
 body {
@@ -533,18 +484,6 @@ footer a {
   text-decoration: none;
 }
 
-/*.linkedin-title a {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
-  background-position: -0% 0;
-  background-size: 205% auto;
-  color: #222;
-  font-size: 1em;
-  line-height: 1.15em;
-  text-decoration: none;
-  transition: background-position 0.5s ease-out;
-  width:100%;
-}*/
-
 .contact {
   display: block;
   margin: 0 auto;
@@ -560,7 +499,6 @@ footer a {
 .about {
   display: inline-flex;
   margin: 0 auto;
-  /*width: 1200px;*/
   padding: 20px;
   background-color: aliceblue;
 }
@@ -569,40 +507,10 @@ footer a {
   margin-left: 3%;
 }
 
-/*.all-about{
-  display: block;
-  margin: 0 auto;
-  align-self: center;
-}*/
-
-/*.linkedin-title a:hover {
-  background-position: -99.99% 0;
-  width:100%;
-}*/
-
-/*.portfolio a {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
-  background-position: -0% 0;
-  background-size: 202% auto;
-  color: #222;
-  font-size: 1em;
-  line-height: 1.15em;
-  text-decoration: none;
-  transition: background-position 0.5s ease-out;
-  width:100%;
-}
-
-.portfolio a:hover {
-  background-position: -99.99% 0;
-  width:100%;
-}*/
 
 .col-1, .col-2, .col-3 {
   padding: 20px;
 }
-/* end of footer info*/
-
-/* media queries */
 
 @media only screen  and (min-width: 1824px) {
 
@@ -698,14 +606,6 @@ footer a {
 
 @media only screen and (max-width: 699px) {
 
-/*.gif-name {
-  width: 100%;
-  min-height: 100%;
-  display: block;
-  justify-content: space-around;
-  padding-bottom: 50px;
-}*/
-
 .header-section nav {
   margin: 0 auto;
   overflow: auto;
@@ -764,13 +664,6 @@ footer a {
 .wrapper {
   min-width: 100%;
   }
-/*
-.header-section nav {
-  margin: 0 auto;
-  overflow: auto;
-  width: 100%;
-  padding-top: 60px;
-}*/
 
 .page-nav ul a {
   display: flex;
@@ -800,25 +693,8 @@ footer a {
 
 .col-1{
   display: block;
-/*position: fixed;*/
-/*  position: relative;*/
 }
 
-/*.col-2, .col-3 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 30px;
-  float: left;
-  min-width: 50%;
-  position: relative;
-}
-
-.col-3 {
-  display: flex;
-  padding: 20px;
-}*/
-}
 
 /* end of media queries */
       

@@ -1,4 +1,4 @@
-// Javascript Document for Landing Page //
+// Javascript Document for Portfolio Page //
 
 const $projectLink = $('.project-link');
 const $projectBoxes = $('.section-box');
@@ -72,25 +72,6 @@ var clearBtn = document.getElementById('drawBtn');
 clearBtn.addEventListener('click',function(){
   context.clearRect(0, 0, canvas.width, canvas.height);
 });
-
-// var button = document.getElementById("drawBtn");
-// button.addEventListener("click",function(e){
-// 	document.getElementById("#c").reset();
-// };
-
-// function clearContent(){
-// 	var button = document.getElementById("drawBtn");
-// 	button.addEventListener("click",function(e){
-// 	document.getElementById("#c").reset();
-//  	//console.log ("hello");
-// 	//document.getElementById("#c").reset();
-// })};
-
-// $("#c").click(function(){
-//  var button = document.getElementById('drawBtn');
-//  var clearCanvas = drawBtn.getContext('#c');
-//     clearCanvas.clearRect(0, 0,  clearCanvas.width, clearCanvas.height);
-// });
 
 
 
