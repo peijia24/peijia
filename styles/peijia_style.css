@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, footer, h1, p, a {
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+  display:flex;
+  background-color: white;
+}
+
