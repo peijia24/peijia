@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, footer, h1, p, a {
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+  display:flex;
+  background-color: white;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-areas: ". main01 main02 main03 ."
+                       ". main04 main05 main06 .";
+  /*justify-items: stretch;*/
+  grid-template-columns: auto 326px 326px 326px auto;
+  grid-template-rows: 326px;
+  grid-auto-flow: column;
+  /*position: relative;*/
+
+}
+
+.item {
+  /*border: 2px black solid;*/
+
+  align-items: center;
+}
+
+.item02 {
+  grid-area: main01;
+  /*background-color: red;*/
+  /*content:url("images/moosetrial.jpg").*/
+}
+
+.item03 {
+  grid-area: main02;
+}
+
+.item04 {
+  grid-area: main03;
+}
+
+.item07 {
+  grid-area:main04;
+}
+
+.item08{
+  grid-area:main05;
+}
+
+.item09{
+  grid-area:main06;
+}
