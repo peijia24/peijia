@@ -7,40 +7,72 @@ html {
   box-sizing: inherit;
 }
 
-body, footer, h1, p, a {
+body, footer, h1, p {
   font-family: 'Inconsolata', monospace;
   margin: 0;
   display:flex;
   background-color: white;
 }
 
+a {
+  font-family: 'Inconsolata', monospace;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+
 .wrapper {
   width: 100%;
   height: 100%;
 }
 
+.page-nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.name-logo a {
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.page-nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.page-nav li {
+  justify-content: space-around;
+  padding: 20px 10px 30px 10px;
+  
+}
+
+
+
 .portfolio-grid {
   display: grid;
   grid-template-areas: ". main01 main02 main03 ."
                        ". main04 main05 main06 .";
-  /*justify-items: stretch;*/
   grid-template-columns: auto 326px 326px 326px auto;
   grid-template-rows: 326px;
   grid-auto-flow: column;
-  /*position: relative;*/
-
 }
 
 .item {
-  /*border: 2px black solid;*/
-
+  /*border: black 1px solid;*/
   align-items: center;
 }
 
 .item02 {
   grid-area: main01;
-  /*background-color: red;*/
-  /*content:url("images/moosetrial.jpg").*/
 }
 
 .item03 {
@@ -62,3 +94,20 @@ body, footer, h1, p, a {
 .item09{
   grid-area:main06;
 }
+
+.social p {
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  justify-content: center;
+}
+
+footer {
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/*media queries*/
+
+
+
