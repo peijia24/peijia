@@ -8,7 +8,7 @@ html {
 }
 
 body, footer, h1, p {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
@@ -23,11 +23,22 @@ li {
   list-style: none;
 }
 
+footer p{
+  font-size: 0.85em;
+  text-align: center;
+}
+
 
 .wrapper {
   width: 100%;
   height: 100%;
 }
+
+.header-section{
+  margin-top: 25px;
+  align-items: center;
+}
+
 
 .page-nav {
   display: flex;
@@ -40,7 +51,9 @@ li {
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
-  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.3em;
 }
 
 .name-logo img{
@@ -63,22 +76,43 @@ li {
   
 }
 
-.content-container {
+.intro-content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.intro-content img{
+  display: block;
+  height: 100%;
+}
+
+.written-content {
+  padding: 0px 30px 0px 30px;
   margin: 0 auto;
 }
 
-.content-container p {
-  padding: 0px 15px 0px 15px;
+.written-content h2{
+  font-size: 1.5em;
+  margin-bottom: 0
+}
+
+.written-content h3{
+  font-size: 1.3em;
+}
+
+.main-content {
   margin: 0 auto;
+  margin-top: 50px;
+  max-width: 850px;
 }
 
 .social p {
   margin: 0 auto;
   padding: 20px 0 20px 0;
   justify-content: center;
+
 }
 
 footer {
@@ -86,3 +120,76 @@ footer {
   justify-content: center;
   padding-bottom: 20px;
 }
+
+/*media queries here*/
+
+@media screen and (max-width: 1200px){
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  
+  main{
+    margin: 0 20px 0 20px;
+    align-content: center;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+  .intro-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+
+  .intro-content img{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .main-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .intro-content{
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  h3{
+  margin: 0;
+  }
+
+  .main-content{
+    margin: 0 auto;
+  }
+
+  footer p {
+  justify-content: center;
+  font-size: 0.8em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

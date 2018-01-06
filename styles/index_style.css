@@ -8,7 +8,7 @@ html {
 }
 
 body, footer, h1, p {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
@@ -29,10 +29,19 @@ img {
   margin: 0 auto;
 }
 
+footer p{
+  font-size: 0.85em;
+  text-align: center;
+}
+
 
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.header-section{
+  margin-top: 25px;
 }
 
 .page-nav {
@@ -47,6 +56,9 @@ img {
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.3em;
 }
 
 .name-logo img{
@@ -78,11 +90,16 @@ img {
   display: block;
 }
 
+.social {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 
-.social p {
+.social img {
   margin: 0 auto;
   padding: 20px 0 20px 0;
-  justify-content: center;
+  width: 28px;
 }
 
 footer {
@@ -93,10 +110,20 @@ footer {
 
 /*media queries here*/
 
+@media screen and (max-width: 1200px){
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
 
 @media screen and (max-width: 700px){
   .portfolio-grid {
     grid-template-columns: 1fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -104,6 +131,11 @@ footer {
 @media screen and (max-width: 400px){
   .portfolio-grid {
     grid-template-columns: 1fr;
+  }
+
+  footer p {
+  justify-content: center;
+  font-size: 0.8em;
   }
 }
 
