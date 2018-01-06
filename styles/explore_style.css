@@ -51,7 +51,7 @@ footer p{
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 3px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .name-logo img{
@@ -86,9 +86,16 @@ footer p{
   margin: 0 auto;
 }
 
-.social p {
-  margin: 0 auto;
-  padding: 20px 0 20px 0;
+.social {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.social img {
+  padding: 40px 0 20px 0;
+  width: 28px;
+  margin: 1em;
   justify-content: center;
 }
 
