@@ -7,11 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-body, footer, h1, p {
-  font-family: 'Poppins', sans-serif;
+body {
+  padding-top: 170px;
+  font-family: 'Poppins', 'Arial', sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
+}
+
+h1 {
+  font-family: 'Poppins', 'Arial',sans-serif;
+  margin: 0;
+  display:flex;
+  /*background-color: white;*/
 }
 
 a {
@@ -23,9 +31,24 @@ li {
   list-style: none;
 }
 
-footer p{
+footer p {
+  font-family: 'Raleway', sans-serif;
   font-size: 0.85em;
   text-align: center;
+}
+
+header {
+  /*background-color: aliceblue;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 170px;
+  transition: top 0.35s ease-in-out;
+  width: 100%;
+}
+
+.nav-up {
+    top: -170px;
 }
 
 
@@ -53,7 +76,8 @@ footer p{
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 3px;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  font-weight: 500;
 }
 
 .name-logo img{
@@ -72,7 +96,7 @@ footer p{
 
 .page-nav li {
   justify-content: space-around;
-  padding: 20px 10px 30px 10px;
+  padding: 20px 15px 30px 15px;
   
 }
 
@@ -94,15 +118,22 @@ footer p{
 }
 
 .written-content h2{
-  font-size: 1.5em;
-  margin-bottom: 0
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 1.9em;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
 }
 
 .written-content h3{
-  font-size: 1.3em;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 0.5px;
 }
 
 .main-content {
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   margin-top: 50px;
   max-width: 850px;

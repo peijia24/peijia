@@ -7,11 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-body, footer, h1, p {
+body {
+  padding-top: 170px;
   font-family: 'Poppins', 'Arial',sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
+} 
+
+h1 {
+  font-family: 'Poppins', 'Arial',sans-serif;
+  margin: 0;
+  display:flex;
+  /*background-color: white;*/
 }
 
 
@@ -30,7 +38,22 @@ img {
   margin: 0 auto;
 }
 
+header {
+  /*background-color: aliceblue;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 170px;
+  transition: top 0.35s ease-in-out;
+  width: 100%;
+}
+
+.nav-up {
+    top: -170px;
+}
+
 footer p{
+  font-family: 'Raleway', sans-serif;
   font-size: 0.85em;
   text-align: center;
 }
@@ -43,6 +66,7 @@ footer p{
 
 .header-section{
   margin-top: 25px;
+  /*height: 133px;*/
 }
 
 .page-nav {
@@ -53,17 +77,14 @@ footer p{
 
 }
 
-/*.name-logo h1 {
-  font-family: 'Helvetica Neue';
-}*/
-
 .name-logo a {
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 3px;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  font-weight: 500;
 }
 
 .name-logo img{
@@ -82,7 +103,7 @@ footer p{
 
 .page-nav li {
   justify-content: space-around;
-  padding: 0 10px 30px 10px;
+  padding: 0 15px 30px 15px;
   
 }
 
