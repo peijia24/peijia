@@ -8,18 +8,16 @@ html {
 }
 
 body {
-  padding-top: 170px;
   font-family: 'Poppins', 'Arial',sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
-} 
+}  
 
 h1 {
   font-family: 'Poppins', 'Arial',sans-serif;
   margin: 0;
   display:flex;
-  /*background-color: white;*/
 }
 
 
@@ -36,20 +34,6 @@ img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-}
-
-header {
-  /*background-color: aliceblue;*/
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 170px;
-  transition: top 0.35s ease-in-out;
-  width: 100%;
-}
-
-.nav-up {
-    top: -170px;
 }
 
 footer p{
@@ -156,6 +140,25 @@ footer {
 
 /* Small Phones - 1 column */
 @media screen and (max-width: 450px){
+
+  body {
+    padding-top: 170px;
+  }
+
+  header {
+  /*background-color: aliceblue;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 170px;
+  transition: top 0.35s ease-in-out;
+  width: 100%;
+}
+
+.nav-up {
+    top: -170px;
+}
+
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
