@@ -155,7 +155,7 @@ footer {
 }
 
 /* Small Phones - 1 column */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .portfolio-grid {
     grid-template-columns: 1fr;
   }

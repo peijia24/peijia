@@ -131,7 +131,7 @@ footer {
 /*media queries*/
 
 /*phone*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   
   footer p {
   justify-content: center;

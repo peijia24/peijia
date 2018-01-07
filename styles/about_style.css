@@ -200,7 +200,7 @@ footer {
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .intro-content{
     margin: 0 auto;
     margin-bottom: 40px;
