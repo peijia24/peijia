@@ -8,17 +8,11 @@ html {
 }
 
 body {
-  font-family: 'Poppins', 'Arial', sans-serif;
-  margin: 0;
-  display:flex;
-  background-color: white;
-}
-
-h1 {
   font-family: 'Poppins', 'Arial',sans-serif;
   margin: 0;
   display:flex;
-}
+  background-color: white;
+}  
 
 a {
   font-family: 'Inconsolata', monospace;
@@ -29,55 +23,69 @@ li {
   list-style: none;
 }
 
-footer p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.85em;
-  text-align: center;
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
+footer p{
+  font-family: 'Inconsolata', monospace;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-size: 0.85em;
+  text-align: center;
+  margin: 0;
+}
+
+
 .wrapper {
+  /*max-width: 1000px;*/
   width: 100%;
-  height: 100%;
+  margin: 0 auto;
 }
 
 .header-section{
-  margin-top: 25px;
-  align-items: center;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  justify-content: space-between;
 }
 
 .page-nav {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
+  flex-direction: flex-end;
+  margin-top: 20px; 
+  margin-right: 20px;
+
+}
+
+.name-logo{
+  margin-left: 35px;
 }
 
 .name-logo a {
-  text-align: center;
   text-decoration: none;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 3px;
-  font-size: 1.3em;
-  font-weight: 500;
-}
-
-.name-logo img{
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
+  font-family: 'Lora', serif;
+  /*font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .page-nav ul {
   display: flex;
-  flex-direction: row;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 }
 
 .page-nav li {
-  justify-content: space-around;
-  padding: 20px 15px 30px 15px;
+  padding: 0 15px 30px 15px;
   
 }
 
@@ -93,18 +101,6 @@ footer p {
   margin: 0 auto;
 }
 
-.social {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-.social img {
-  padding: 40px 0 20px 0;
-  width: 28px;
-  margin: 1em;
-  justify-content: center;
-}
 
 main h1{
   font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
@@ -120,9 +116,24 @@ main h2 {
 }
 
 footer {
-  margin: 0 auto;
-  justify-content: center;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 35px 20px 35px;
+}
+
+.social {
+  display: inline-block;
+}
+
+.social img {
+  width: 20px;
+  margin: 0.7em;
+  margin-top: 0;
+}
+
+footer p {
+  display: flex;
+  flex-direction: flex-end;
 }
 
 /*media queries*/
@@ -131,7 +142,7 @@ footer {
 @media screen and (max-width: 450px){
 
   body{
-    padding-top: 170px;
+    padding-top: 90px;
   }
 
   header {
@@ -139,13 +150,13 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  height: 170px;
+  height: 90px;
   transition: top 0.35s ease-in-out;
   width: 100%;
   }
 
   .nav-up {
-      top: -170px;
+      top: 90px;
   } 
   
   footer p {
