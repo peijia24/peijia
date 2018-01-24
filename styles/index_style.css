@@ -337,7 +337,7 @@ video {
 }
 
 video {
-  max-width: 320px;
+  max-width: 350px;
   min-height: 320px;
   margin: 0 auto;
   display: block;
