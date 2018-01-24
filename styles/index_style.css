@@ -91,7 +91,6 @@ footer p{
 
 .intro-content {
   padding-top: 20px;
-  padding-bottom: 50px;
 }
 
 .intro-vid {
@@ -105,7 +104,7 @@ footer p{
   text-transform: uppercase;
   position: relative;
   z-index: 5;
-  top: -135px;
+  top: -195px;
   margin: 0 auto;
 }
 
@@ -114,7 +113,7 @@ footer p{
   margin: 0 auto;
   letter-spacing: 1.5em;
   font-size: 0.9em;
-  padding-left: 12px;
+  padding-left: 20px;
 }
 
 .video-words h2 {
@@ -132,6 +131,7 @@ footer p{
   font-size: 6px;
   padding-top: 20px;
   margin: 0 auto;
+  padding-left: 10px;
 
 }
 
@@ -322,7 +322,7 @@ video {
   top: 0;
   left: 0;
   height: 90px;
-  max-height: 200px;
+  /*max-height: 320px;*/
   max-width: 300px;
   transition: top 0.35s ease-in-out;
   /*width: 100%;*/
@@ -338,7 +338,7 @@ video {
 
 video {
   max-width: 320px;
-  min-height: 200px;
+  min-height: 320px;
   margin: 0 auto;
   display: block;
 }
