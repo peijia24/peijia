@@ -36,3 +36,15 @@ function hasScrolled() {
     // console.log("scrolling");
 }
 
+// mobile menu //
+
+const $nav = document.querySelector('nav');
+const $btn = document.querySelector('.mobile-menu');
+
+$btn.addEventListener('click', function(){
+
+    $nav.classList.toggle('show');
+
+});
+
+
