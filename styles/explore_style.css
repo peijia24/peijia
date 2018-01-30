@@ -190,6 +190,14 @@ footer p {
 
 /*media queries*/
 
+@media screen and (max-width: 380px){
+
+  main {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+}
+
 /*phone*/
 @media screen and (min-width: 400px){
 

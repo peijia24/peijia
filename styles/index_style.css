@@ -151,7 +151,7 @@ margin-right: 35px;
 }
 
 .intro-vid {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   margin: 0 auto;
 }
 
@@ -327,6 +327,14 @@ footer p {
   display: flex;
   flex-direction: flex-end;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 380px){
+
+  .intro-vid {
+  padding-top: 20px;
+  margin: 0 auto;
+}
 }
 
 @media screen and (min-width: 400px){
