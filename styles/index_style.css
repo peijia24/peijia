@@ -385,6 +385,11 @@ video {
 
 @media screen and (min-width: 1000px){
 
+  video {
+  width: 800px;
+  padding: 0;
+  margin: 0 auto;
+}
 
 
   /*.portfolio-grid {
@@ -394,15 +399,25 @@ video {
   }*/
 }
 
+
 @media screen and (min-width: 1200px){
 
   video {
-  width: 1000px;
+  width: 900px;
   padding: 0;
   margin: 0 auto;
 }
 
 }
 
+@media screen and (min-width: 1500px){
+
+  video {
+  width: 1100px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+}
 
 
