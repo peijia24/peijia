@@ -47,4 +47,27 @@ $btn.addEventListener('click', function(){
 
 });
 
+// intro box effect 
+
+window.onscroll = function() {myFunction()};
+
+var introBox = document.getElementById("myIntro");
+var changePoint = 300;
+
+introBox.addEventListener('transitionend', hideEl);
+
+function myFunction() {
+  if (window.pageYOffset >= changePoint) {
+    introBox.classList.add("not-sticky");
+  } else {
+    introBox.style.display = 'block';
+    introBox.classList.remove("not-sticky");
+
+  }
+}
+
+function hideEl(){
+    introBox.style.display = 'none';
+}
+
 

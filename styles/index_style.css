@@ -55,6 +55,7 @@ video {
 body{
     padding-top: 90px;
     margin: 0 auto;
+   /* min-height: 8000px;*/
 }
 
 header {
@@ -107,22 +108,12 @@ margin-right: 35px;
   position: absolute;
   display: block;
   min-width: 160px;
-  z-index: 1;
+  z-index: 10;
   text-align: center;
   margin: 0 auto;
   margin-top: 60px;
   left: 19%;
-/*  margin-left: 35px;
-  margin-right: 35px;*/
 }
-
-/*.page-nav {
-  display: flex;
-  flex-direction: flex-end;
-  margin-top: 20px; 
-  margin-right: 20px;
-
-}*/
 
 .name-logo{
   margin-left: 35px;
@@ -150,8 +141,11 @@ margin-right: 35px;
   
 }
 
+.page-nav a {
+  z-index: 30;
+}
+
 .intro-vid {
-  /*padding-top: 20px;*/
   margin: 0 auto;
 }
 
@@ -161,9 +155,10 @@ margin-right: 35px;
   text-transform: uppercase;
   position: relative;
   z-index: 5;
-  top: -160px;
+  top: -135px;
   margin: 0 auto;
 }
+
 
 .video-words h1 {
   text-align: center;
@@ -192,27 +187,16 @@ margin-right: 35px;
 
 }
 
-.portfolio-pieces {
-  line-height: 0;
-}
-
-.portfolio-pieces img {
-  margin: 0 auto;
-  vertical-align: middle;
-}
-
 .portfolio {
   height: 100%;
-  margin: 0 auto;
   vertical-align: middle;
-}
-
-.piece-one {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 0;
+  padding-bottom: 42%;
+  position: relative;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-/*  width: 100%;
-  height: 100%;*/
 }
 
 .project-title { 
@@ -220,7 +204,9 @@ margin-right: 35px;
   margin: 0 auto;
   display: block;
   position: absolute;
-  font-size: 30px;
+  font-size: 1.8em;
+  color: white;
+  letter-spacing: 0.3em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -229,18 +215,23 @@ margin-right: 35px;
 
 .p-link {
   text-decoration: none;
-  position: relative;
+
 }
 
-/*.portfolio p {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  vertical-align: middle;    
-  top: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 200px;
-}*/
+.piece-one {
+  background-image: url('../images/howlscastle.jpg');
+  margin-bottom: 50px;
+}
+
+.piece-two {
+  background-image: url('../images/rainclouds.jpeg');
+  margin-bottom: 50px;
+}
+
+.piece-three {
+  background-image: url('../images/sun02.jpg');
+  margin-bottom: 50px;
+}
 
 
 /*.intro-vid h2 {
@@ -329,6 +320,8 @@ footer p {
   margin: 0 auto;
 }
 
+/*media queries here*/
+
 @media screen and (max-width: 380px){
 
   .intro-vid {
@@ -359,19 +352,40 @@ footer p {
 }
 
 .page-nav li {
-  /*margin-top: 30px;*/
   padding: 0 15px 0 15px;
 }
 
 }
 
-/*media queries here*/
 @media screen and (min-width: 500px){
 
 video {
   width: 450px;
   padding: 0;
   margin: 0 auto;
+}
+
+.video-words {
+  top: -170px;
+}
+
+
+.video-words h1 {
+  letter-spacing: 1.5em;
+  font-size: 1.1em;
+  padding-left: 33px;
+}
+
+.video-words h2 {
+  letter-spacing: 1em;
+  font-size: 0.5em;
+  padding-left: 33px;
+}
+
+.video-words h4 {
+  letter-spacing: 1em;
+  font-size: 0.3em;
+  padding-left: 30px;
 }
 
 }
@@ -383,19 +397,108 @@ video {
     margin-left: 20px;
   }*/
 
-  video {
+.intro-content {
+  position: fixed;
+  width: 100%;
+  transition: 1s opacity ease;
+}
+
+.not-sticky {
+  opacity: 0;
+}
+
+video {
   width: 650px;
   padding: 0;
   margin: 0 auto;
 }
 
+.portfolio-pieces {
+/* top: -600px;*/
 }
+
+.video-words {
+  top: -227px;
+  padding-left: 5px;
+}
+
+
+.video-words h1 {
+  letter-spacing: 1.5em;
+  font-size: 1.6em;
+  padding-left: 33px;
+}
+
+.video-words h2 {
+  letter-spacing: 1em;
+  font-size: 0.8em;
+  padding-left: 33px;
+}
+
+.video-words h4 {
+  letter-spacing: 1em;
+  font-size: 0.4em;
+  padding-left: 30px;
+}
+
+.portfolio-pieces {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.project-title {
+  font-size: 3em;
+}
+
+.piece-one {
+  margin-bottom: 100px;
+}
+
+.piece-two {
+  margin-bottom: 100px;
+}
+
+.piece-three {
+  margin-bottom: 100px;
+}
+
+}
+
 
 @media screen and (min-width: 1000px){
 
   video {
   width: 800px;
   padding: 0;
+  margin: 0 auto;
+}
+
+.video-words {
+  top: -280px;
+  padding-left: 5px;
+}
+
+
+.video-words h1 {
+  letter-spacing: 1.5em;
+  font-size: 2.2em;
+  padding-left: 55px;
+}
+
+.video-words h2 {
+  letter-spacing: 1em;
+  font-size: 1.1em;
+  padding-left: 45px;
+}
+
+.video-words h4 {
+  letter-spacing: 1em;
+  font-size: 0.7em;
+  padding-left: 45px;
+}
+
+.portfolio-pieces {
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -414,6 +517,11 @@ video {
   width: 900px;
   padding: 0;
   margin: 0 auto;
+}
+
+.video-words {
+  top: -300px;
+  padding-left: 5px;
 }
 
 }
