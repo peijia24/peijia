@@ -237,7 +237,6 @@ footer p {
 
 @media screen and (min-width: 400px){
   
-
 .mobile-menu{
   display: none;
 
@@ -264,17 +263,39 @@ footer p {
 
 }
 
-@media screen and (max-width: 700px){
 
+@media screen and (min-width: 700px){
+
+.intro-about {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+
+.key-about {
+  padding-top: 60px;
+}
 
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (min-width: 1000px){
+
+  .intro-about {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+
+.key-about {
+  padding-top: 60px;
+}
   
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 1200px){
 
   .wrapper {
     width: 100%;

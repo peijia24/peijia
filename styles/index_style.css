@@ -197,6 +197,7 @@ margin-right: 35px;
   padding-bottom: 42%;
   position: relative;
   margin: 0 auto;
+  display: block;
 }
 
 .project-title { 
@@ -401,20 +402,18 @@ video {
   position: fixed;
   width: 100%;
   transition: 1s opacity ease;
+  display: block;
 }
 
 .not-sticky {
   opacity: 0;
+  /*transition: 1s opacity ease-in-out;*/
 }
 
 video {
   width: 650px;
   padding: 0;
   margin: 0 auto;
-}
-
-.portfolio-pieces {
-/* top: -600px;*/
 }
 
 .video-words {
@@ -444,6 +443,8 @@ video {
 .portfolio-pieces {
   width: 700px;
   margin: 0 auto;
+  display: block;
+  margin-top: 500px;
 }
 
 .project-title {
@@ -466,6 +467,13 @@ video {
 
 
 @media screen and (min-width: 1000px){
+
+.intro-content {
+  position: fixed;
+  width: 100%;
+  transition: 1s opacity ease;
+  display: block;
+}
 
   video {
   width: 800px;
@@ -500,6 +508,8 @@ video {
 .portfolio-pieces {
   width: 700px;
   margin: 0 auto;
+  display: block;
+  margin-top: 500px;
 }
 
 
@@ -513,6 +523,13 @@ video {
 
 @media screen and (min-width: 1200px){
 
+.intro-content {
+  position: fixed;
+  width: 100%;
+  transition: 1s opacity ease;
+  display: block;
+}
+
   video {
   width: 900px;
   padding: 0;
@@ -524,14 +541,35 @@ video {
   padding-left: 5px;
 }
 
+.portfolio-pieces {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 600px;
+}
+
 }
 
 @media screen and (min-width: 1500px){
+
+.intro-content {
+  position: fixed;
+  width: 100%;
+  transition: 1s opacity ease;
+  display: block;
+}
 
   video {
   width: 1100px;
   padding: 0;
   margin: 0 auto;
+}
+
+.portfolio-pieces {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 700px;
 }
 
 }

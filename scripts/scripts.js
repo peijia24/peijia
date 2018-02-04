@@ -52,7 +52,7 @@ $btn.addEventListener('click', function(){
 window.onscroll = function() {myFunction()};
 
 var introBox = document.getElementById("myIntro");
-var changePoint = 300;
+var changePoint = 200;
 
 introBox.addEventListener('transitionend', hideEl);
 
