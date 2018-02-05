@@ -245,10 +245,6 @@ footer p {
   margin: 0 auto;
 }
 
-video {
-  display: none;
-}
-
 .flower-grid img {
   max-width: 320px;
 }
@@ -286,10 +282,6 @@ video {
 
 .flower-grid img {
   max-width: 100%;
-}
-
-.flower-grid video {
-  display: none;
 }
 
 }
@@ -398,12 +390,6 @@ video {
 .item20 {
   background-color: #f7c298;
   grid-row: auto / span 1;
-}
-
-.item21 video {
-  display: block;
-  max-width: 320px;
-  height: auto;
 }
 
 .item22 {
