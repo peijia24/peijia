@@ -245,6 +245,10 @@ footer p {
   margin: 0 auto;
 }
 
+video {
+  display: none;
+}
+
 }
 
 @media screen and (min-width: 400px){
@@ -272,20 +276,12 @@ footer p {
   padding: 0 15px 0 15px;
 }
 
-.flower-grid {
-  display: grid;
-  /*grid-template-columns: 1fr 1fr;*/
-  grid-template-columns: 360px;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
+.flower-grid img {
+  max-width: 360px;
 }
 
 .flower-grid video {
-  max-width: 360px;
+  display: none;
 }
 
 
@@ -398,6 +394,7 @@ footer p {
 }
 
 .item21 video {
+  display: block;
   max-width: 320px;
   height: auto;
 }
@@ -516,6 +513,7 @@ footer p {
 }
 
 .item21 video {
+  display: block;
   max-width: 320px;
   height: auto;
 }
@@ -638,6 +636,7 @@ footer p {
 }
 
 .item21 video {
+  display: block;
   max-width: 320px;
   height: auto;
 }
