@@ -54,7 +54,7 @@ window.onscroll = function() {myFunction()};
 var introBox = document.getElementById("myIntro");
 var changePoint = 200;
 
-introBox.addEventListener('transitionend', hideEl);
+//introBox.addEventListener('transitionend', hideEl);
 
 function myFunction() {
   if (window.pageYOffset >= changePoint) {
