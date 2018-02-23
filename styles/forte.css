@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+  /*font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+  font-family: 'Inconsolata', monospace;
   margin: 0;
   display:flex;
   background-color: white;
@@ -140,6 +141,9 @@ margin-right: 35px;
 /*.project-image {
   height: 600px;
 }*/
+.core {
+  margin: 0 auto;
+}
 
 .image-title {
   font-family: 'Inconsolata', monospace;
@@ -155,6 +159,10 @@ margin-right: 35px;
   color: black;
 }
 
+/*.context-section {
+  display: inline-flex;
+}*/
+
 .team-info {
   font-family: 'Inconsolata', monospace;
   /*text-decoration: center;*/
@@ -165,17 +173,41 @@ margin-right: 35px;
 }
 
 .role-title {
-  font-size: 20px;
+  /*font-size: 20px;*/
   /*letter-spacing: 0.1em;
   font-family: 'Merriweather', serif;*/
 }
 
-.top-title {
-
+.questions-context { 
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
+.question {
+  line-height: 1.5em;
+  font-family: 'Inconsolata', monospace;
+}
 
+.text {
+  line-height: 1.2em;
+}
 
+.discovery-content {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.discovery-content li {
+list-style: circle;
+line-height: 1.2em;
+}
+
+/*.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}*/
 
 footer {
   display: flex;
