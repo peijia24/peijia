@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+  /*font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+  font-family: 'Inconsolata', monospace;
   margin: 0;
   display:flex;
   background-color: white;
@@ -143,31 +144,38 @@ margin-right: 35px;
   margin: 0 auto;
 }
 
-.florist-main h1{
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-  font-weight: 200;
-  text-align: center;
+.flower-title {
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  font-weight: 600;
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 10px;
 }
 
-.florist-main a {
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-  font-weight: 200px;
+.floral-text {
+  padding: 10px;
+  margin-top: 0;
 }
 
-.florist-main a:hover {
- background-color: aliceblue;
-}
-
-.florist-blurb {
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-  font-weight: 200;
-  text-align: center;
+.thoughts-end {
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  font-weight: 300;
   margin: 0 auto;
-  padding: 0 20px 0 20px;
-  font-size: 1.2em;
-  max-width: 850px;
+  padding: 10px;
+}
+
+.item00 {
+  border: 1px black solid;
+}
+
+.item00 p {
+  padding: 10px;
+  margin: 0 auto;
+  line-height: 1.3em;
+  font-family: 'Inconsolata', monospace;
 }
 
 .sentence {
@@ -179,24 +187,30 @@ margin-right: 35px;
   font-size: 1.2em;
 }
 
-.thanks {
-  margin-top: 20px;
+.danke {
   margin: 0 auto;
-  padding: 0 20px 0 20px;
+  padding: 0 30px 0 30px;
   max-width: 800px;
-  font-size: 15px;
+  /*text-align: center;*/
+
 }
 
-.thanks a {
-  font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-  font-weight: 200;
+.ty {
+  font-family: 'Lora', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.thanks {
   font-size: 15px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .flower-grid {
   display: grid;
   grid-template-columns: 1fr;
-  /*grid-gap: 3px;*/
+  grid-gap: 8px;
   /*max-width: 1000px;*/
   margin: 0 auto;
   margin-top: 30px;
@@ -307,9 +321,17 @@ footer p {
   grid-row: auto / span 2;
 }
 
-.item02 {
-  grid-row: auto / span 2;
-  background-color: #f1ebdd;
+.item01 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item02 img {
+  grid-row: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item03 {
@@ -326,7 +348,12 @@ footer p {
 .item05 {
   grid-column: span 1;
   grid-row: span 1;
-  background-color: aliceblue;
+}
+
+.item05 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item07 {
@@ -334,12 +361,22 @@ footer p {
   grid-row: auto / span 2;
 }
 
-.item08 {
-  background-color: #f5dbbe;
+.item06 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.item09 {
-  background-color: #977356;
+.item08 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item09 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item10 {
@@ -353,6 +390,13 @@ footer p {
   grid-column: auto / span 2;
 }
 
+.item11 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .item12 {
   background-color: #83a09d;
 }
@@ -362,12 +406,21 @@ footer p {
   grid-column: auto / span 2;
 }
 
+.item13 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .item14 {
   grid-column: auto / span 2;
 }
 
-.item15 {
-  background-color: #87984a;
+.item15 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item16 {
@@ -379,24 +432,46 @@ footer p {
   grid-column: auto / span 2;
 }
 
+.item17 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .item18 {
   grid-row: auto / span 2;
   grid-column: auto / span 2;
 }
 
-.item19 {
-  background-color: #e8f7ff;
+.item19 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.item20 {
-  background-color: #f7c298;
+.item20 img {
   grid-row: auto / span 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item21 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .item22 {
-  grid-row: auto / span 2;
+  grid-row: auto;
   grid-column: auto / span 2;
-  background-color: lightgrey;
+}
+
+.item22 img {
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
 
 }
@@ -415,6 +490,10 @@ footer p {
 .flower-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+}
+
+main {
+  padding-top: 0;
 }
 
 }
