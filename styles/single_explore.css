@@ -33,7 +33,6 @@ img {
 
 footer p{
   font-family: 'Inconsolata', monospace;
-  /*font-family: 'Raleway', sans-serif;*/
   font-size: 0.85em;
   text-align: center;
   margin: 0;
@@ -88,7 +87,6 @@ background-color: transparent;
 position: relative;
 cursor: pointer;
 margin-right: 35px;
-/*left: 60px;*/
 }
 
 .page-nav {
@@ -97,8 +95,6 @@ margin-right: 35px;
 }
 
 .page-nav.show {
- /* display: flex;
-  flex-direction: flex-end;*/
   position: absolute;
   display: block;
   min-width: 160px;
@@ -107,8 +103,6 @@ margin-right: 35px;
   margin: 0 auto;
   margin-top: 60px;
   left: 19%;
-/*  margin-left: 35px;
-  margin-right: 35px;*/
 }
 
 .name-logo{
@@ -191,8 +185,6 @@ margin-right: 35px;
   margin: 0 auto;
   padding: 0 30px 0 30px;
   max-width: 800px;
-  /*text-align: center;*/
-
 }
 
 .ty {
@@ -211,7 +203,6 @@ margin-right: 35px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 8px;
-  /*max-width: 1000px;*/
   margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 30px;
@@ -305,7 +296,6 @@ footer p {
 
 .flower-grid {
   display: grid;
-  /*grid-template-columns: 1fr 1fr;*/
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
   max-width: 1000px;
   margin: 0 auto;
