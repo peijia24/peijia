@@ -206,6 +206,10 @@ font-size: 1.7em;
   width: 100%;
 }*/
 
+.item01 {
+  margin: 0 auto;
+}
+
 .item01 a {
   text-decoration: none;
 }
