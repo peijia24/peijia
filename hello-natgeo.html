@@ -36,6 +36,14 @@
 				</div>
     	</header>
 
+    	<div class="trial">
+    		<img src="images/svg/bw-orange-reduced.svg" id="svg-id" alt="trial-run">
+			<!-- <div class="svg-section" style="display: none;">
+			</div> -->
+
+    		<!-- <canvas id="svgcanvas" width="300" height="300"></canvas> -->
+    	</div>
+
 
 <main>
 	<!-- <div class="florist-main">
@@ -92,7 +100,43 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous">
 </script>
+<script type="text/javascript" src="scripts/pathseg.js"></script>
+<script type="text/javascript" src="scripts/jsmodeler.js"></script>
+<script type="text/javascript" src="scripts/jsmodeler.ext.svgtomodel.js"></script>
+<script type="text/javascript" src="scripts/three.min.js"></script>
+<script type="text/javascript" src="scripts/jsmodeler.ext.three.js"></script>
 
 <script src="scripts/scripts.js"></script>
+
+<script>
+
+window.onload = function(){
+
+	var viewerSettings = {
+	cameraEyePosition : [-3, -2, 1.0],
+	cameraCenterPosition : [0.0, 0.0, 0.0],
+	cameraUpVector : [0.0, 0.0, 1.0],
+	nearClippingPlane : 1.0,
+	farClippingPlane : 100000.0
+};
+
+var viewer = new JSM.ThreeViewer ();
+if (!viewer.Start (document.getElementById ('svgcanvas'), viewerSettings)) {
+	viewer = null;
+	return;
+}
+
+var svgObject = document.getElementById ('svg-id');
+var modelAndMaterials = JSM.SvgToModel (svgObject, 8, 5);
+var model = modelAndMaterials[0];
+var materials = modelAndMaterials[1];
+var meshes = JSM.ConvertModelToThreeMeshes (model, materials);
+viewer.AddMeshes (meshes);
+
+viewer.FitInWindow ();
+viewer.Draw ();
+
+}
+</script>
 
 </html>
