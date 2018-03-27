@@ -145,47 +145,47 @@ margin-right: 35px;
   z-index: 30;
 }
 
-.intro-vid {
-  margin: 0 auto;
+/* hero section deets */
+
+.hero-section {
+  margin-bottom: 50px;
+
 }
 
-.video-words {
-  font-family: 'Lora', serif;
+.hero-section img {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.hero-text {
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+  margin: 0 auto;
+  padding: 15px;
+  width: 320px;
+  }
+
+.hero-text p {
   color: white;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 5;
-  top: -135px;
-  margin: 0 auto;
-}
+  text-shadow: 1px 1px #1032b7;
+  font-size: 1.1em;
+  /*padding: 20px;*/
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto
 
-
-.video-words h1 {
-  text-align: center;
-  margin: 0 auto;
-  letter-spacing: 1.5em;
-  font-size: 0.9em;
-  padding-left: 20px;
-}
-
-.video-words h2 {
-  text-align: center;
-  letter-spacing: 1em;
-  font-size: 0.4em;
-  padding-bottom: 15px;
-  margin: 0 auto;
-  padding-left: 12px;
-}
-
-.video-words h4 {
-  text-align: center;
-  letter-spacing: 1em;
-  font-size: 6px;
-  padding-top: 20px;
-  margin: 0 auto;
-  padding-left: 10px;
+  /*font-family: 'Raleway', sans-serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
 
 }
+
+/*start of index portfolio*/
 
 .portfolio {
   height: 100%;
@@ -233,53 +233,6 @@ margin-right: 35px;
   background-image: url('../images/sun02.jpg');
   margin-bottom: 50px;
 }
-
-
-/*.intro-vid h2 {
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: 'Lora', serif;
-  letter-spacing: 0.8em;
-  font-size: 0.8em;
-  color: white;
-  text-transform: uppercase;
-  text-align: left;
-  position: relative;
-  top: -260px;
-  left: 67px;
-  z-index: 5;
-}
-
-.intro-vid h1 {
-  max-width: 750px;
-  margin: 0 auto;
-  font-family: 'Lora', serif;
-  letter-spacing: 1.5em;
-  font-size: 2em;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  top: -250px;
-  left: 25px;
-  z-index: 5;
-}
-
-.intro-vid h4 {
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: 'Lora', serif;
-  letter-spacing: 0.8em;
-  font-size: 0.6em;
-  color: white;
-  text-transform: uppercase;
-  text-align: right;
-  position: relative;
-  top: -240px;
-  left: -57px;
-  z-index: 5;
-}
-*/
 
 
 
