@@ -51,7 +51,7 @@ $btn.addEventListener('click', function(){
 
 window.onscroll = function() {myFunction()};
 
-var introBox = document.getElementById("myIntro");
+var introBox = document.getElementById('hero-section');
 var changePoint = 200;
 
 //introBox.addEventListener('transitionend', hideEl);

@@ -27,12 +27,10 @@ img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  /*margin-bottom: 100px;*/
 }
 
 footer p{
   font-family: 'Inconsolata', monospace;
-  /*font-family: 'Raleway', sans-serif;*/
   font-size: 0.85em;
   text-align: center;
   margin: 0;
@@ -55,7 +53,6 @@ video {
 body{
     padding-top: 90px;
     margin: 0 auto;
-   /* min-height: 8000px;*/
 }
 
 header {
@@ -74,7 +71,6 @@ header {
 /*end mobile follow menu*/
 
 .wrapper {
-  /*max-width: 1000px;*/
   width: 100%;
   margin: 0 auto;
 }
@@ -95,7 +91,7 @@ background-color: transparent;
 position: relative;
 cursor: pointer;
 margin-right: 35px;
-/*left: 60px;*/
+z-index: 5000;
 }
 
 .page-nav {
@@ -103,8 +99,6 @@ margin-right: 35px;
 }
 
 .page-nav.show {
- /* display: flex;
-  flex-direction: flex-end;*/
   position: absolute;
   display: block;
   min-width: 160px;
@@ -122,10 +116,12 @@ margin-right: 35px;
 .name-logo a {
   text-decoration: none;
   margin: 0 auto;
-  font-family: 'Lora', serif;
+  margin-bottom: 10px;
+  /*font-family: 'Lora', serif;*/
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.7em;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
@@ -145,10 +141,19 @@ margin-right: 35px;
   z-index: 30;
 }
 
+/* construction message styling */
+
+.construction {
+  margin-top: 0;
+  width: 90%;
+}
+
 /* hero section deets */
 
 .hero-section {
   margin-bottom: 50px;
+  display: block;
+  transition: opacity 1.5s ease-in-out;
 
 }
 
@@ -168,22 +173,29 @@ margin-right: 35px;
   transform: translate(-50%, -50%);
   z-index: 500;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 15px 35px 15px;
   width: 320px;
   }
 
 .hero-text p {
   color: white;
-  text-shadow: 1px 1px #1032b7;
   font-size: 1.1em;
-  /*padding: 20px;*/
   font-family: 'Poppins', sans-serif;
   margin: 0 auto
-
-  /*font-family: 'Raleway', sans-serif;*/
-  /*font-family: 'Open Sans', sans-serif;*/
-
 }
+
+/* see my work styling */
+/*
+.view-here {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+
+.view-here p {
+  margin-top: 0;
+  text-align: center;
+}*/
 
 /*start of index portfolio*/
 
@@ -198,6 +210,7 @@ margin-right: 35px;
   position: relative;
   margin: 0 auto;
   display: block;
+  width: 90%;
 }
 
 .project-title { 
@@ -247,6 +260,7 @@ footer {
 .social {
   display: inline-flex;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .social img {
@@ -280,7 +294,7 @@ footer p {
 
 .page-nav {
   display: block;
-  margin-top: 20px; 
+  margin-top: 25px; 
   margin-right: 20px;
 
 }
@@ -332,11 +346,6 @@ video {
 }
 
 @media screen and (min-width: 700px){
-/*  .portfolio-grid {
-    grid-template-columns: 1fr 1fr;
-    margin-right: 20px;
-    margin-left: 20px;
-  }*/
 
 .intro-content {
   position: fixed;
@@ -479,7 +488,7 @@ video {
   width: 800px;
   margin: 0 auto;
   display: block;
-  margin-top: 600px;
+  /*margin-top: 600px;*/
 }
 
 }
