@@ -346,6 +346,7 @@ main {
 
 .page-nav li {
   padding: 0 15px 0 15px;
+  margin-top: 8px;
 }
 
 .explore-grid {

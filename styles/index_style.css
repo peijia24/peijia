@@ -86,7 +86,6 @@ background-color: transparent;
 position: relative;
 cursor: pointer;
 margin-right: 35px;
-margin-top: 3px;
 }
 
 .page-nav {
@@ -127,12 +126,21 @@ margin-top: 3px;
 
 .page-nav li {
   padding: 0 15px 30px 15px;
+  margin-top: 8px;
   
 }
 
 .page-nav a {
   font-family: 'Raleway', sans-serif;
   z-index: 30;
+}
+
+#nav a:active, #nav a:focus, #nav a:hover {
+  text-decoration: none;
+}
+
+#nav a:highlight {
+  color: orange;
 }
 
 /* construction message styling */
