@@ -8,14 +8,14 @@ html {
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
 }  
 
 a {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -31,14 +31,15 @@ img {
 }
 
 footer p{
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
+  /*font-weight: 800;*/
   font-size: 18px;
 }
 
@@ -56,6 +57,7 @@ header {
   left: 0;
   height: 90px;
   transition: top 0.35s ease-in-out;
+  z-index: 7000;
   }
 
   .nav-up {
@@ -85,6 +87,7 @@ background-color: transparent;
 position: relative;
 cursor: pointer;
 margin-right: 35px;
+margin-top: 3px;
 }
 
 .page-nav {
@@ -110,12 +113,11 @@ margin-right: 35px;
 .name-logo a {
   text-decoration: none;
   margin: 0 auto;
-  /*font-family: 'Lora', serif;*/
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.7em;
-  font-size: 1.2em;
-  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Abhaya Libre', serif;
+  letter-spacing: 0.3em;
+  font-size: 2em;
+  /*font-weight: 600;*/
 }
 
 .page-nav ul {
@@ -127,8 +129,14 @@ margin-right: 35px;
 
 .page-nav li {
   padding: 0 15px 30px 15px;
-  
 }
+
+.page-nav a {
+  font-family: 'Raleway', sans-serif;
+  z-index: 30;
+}
+
+/* main body*/
 
 .content-container {
   display: flex;
@@ -161,12 +169,11 @@ font-size: 1.7em;
 
 .explore-blurb {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   text-align: center;
   margin: 0 auto;
-  line-height: 23px;
-  font-size: 0.9em;
-  max-width: 700px;
+  line-height: 1.5em;
+  font-size: 1em;
+  width: 70%;
 }
 
 .explore-grid {
@@ -279,8 +286,7 @@ footer {
   flex-flow: row wrap;
   text-align: center;
   justify-content: space-between;
-  margin: 0px 35px 20px 35px;
-  margin-top: 0px;
+  margin: 30px 35px 20px 35px;
 }
 
 .social {
@@ -359,7 +365,7 @@ grid-template-columns: 1fr;
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 .explore-grid {
 grid-template-columns: 1fr 1fr;
 }
@@ -367,9 +373,22 @@ grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (min-width: 1000px) {
-  .explore-grid {
+
+.explore-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+main h1 {
+  font-size: 2em; 
+}
+
+.explore-blurb {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  width: 800px;
+}
+
+
 
 }
 
