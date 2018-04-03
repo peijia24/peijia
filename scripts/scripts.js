@@ -71,14 +71,45 @@ function hideEl(){
 }
 
 
+// highlighting active item in menu
+
+// $(document).ready(function() { 
+//     $("#nav li .nav").click(function ( e ) {
+//         e.preventDefault();
+//         $("#nav li a.active").removeClass("active"); //Remove any "active" class  
+//         $(this).addClass("active"); //Add "active" class to selected tab  
+//         $(activeTab).show(); //Fade in the active content  
+//     });
+
+// console.log ('helloooo im ninoooo');
+
+// });
 
 
 
+$(document).ready(function(){
+    $("a[href*='" + location.pathname + "']").addClass("active");
+});
 
+$('.nav li a').on('click', function(){
+    $('li a.active').removeClass('active');
+    $(this).addClass('active');
+    $('li a.active').show(); //Fade in the active content  
 
+console.log ('what the fuhREAK');
 
+});
 
-
+// $(function(){
+//     var current = location.pathname;
+//     $('#nav li a').each(function(){
+//         var $this = $(this);
+//         // if the current path is like this link, make it active
+//         if($this.attr('href').indexOf(current) !== -1){
+//             $this.addClass('active');
+//         }
+//     })
+// })
 
 
 

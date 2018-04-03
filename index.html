@@ -29,13 +29,13 @@
 	      				</button>
 
 						<nav class="page-nav">
-							<ul id="nav">
+							<ul id="nav" class="nav">
 								<li class="works">
-									<a id="default" class="highlight" onclick="highlight(this);" href="index.html">works</a></li>
+									<a href="index.html" class="active">works</a></li>
 								<li class="explore">
-									<a onclick="highlight(this);" href="explore.html">explore</a></li>
+									<a href="explore.html">explore</a></li>
 								<li class="about">
-									<a onclick="highlight(this);" href="about.html">me</a></li>
+									<a href="about.html" class="">me</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -86,25 +86,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="scripts/scripts.js"></script>
 
-<script>
-	
-	// menu item highlighted when on current page 
-
-var currentPage = document.getElementById('default');
-
-function highlight(el) {
-    if (current != null) {
-        current.className = "";
-    }
-
-    el.className = "highlight";
-    current = el;
-
-console.log("hi");
-
-}
-
-</script>
 
 </body>
 

@@ -134,15 +134,16 @@ margin-right: 35px;
   font-family: 'Raleway', sans-serif;
   z-index: 30;
 }
+/*
+#nav .active {
+  color: orange;
+  text-decoration: none;
+}*/
 
-#nav a:active, #nav a:focus, #nav a:hover {
+.nav li a.active {
+  color: orange;
   text-decoration: none;
 }
-
-#nav a:highlight {
-  color: orange;
-}
-
 /* construction message styling */
 
 .construction {

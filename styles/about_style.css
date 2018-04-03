@@ -145,7 +145,6 @@ margin-top: 3px;
 .intro-about img{
   height: 100%;
   width: 90%;
-
 }
 
 .key-about {
@@ -306,7 +305,10 @@ footer p {
 }
 
 .name {
-  width: 300px;
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 }
@@ -325,15 +327,16 @@ footer p {
   width: 50%;
   border: none;
   padding: 0;
+  display: block;
   /*margin-top: 30px;*/
 }
 
-.name {
+/*.name {
   width: 400px;
   text-align: left;
   padding-left: 10px;
   padding-bottom: 20px;
-}
+}*/
 
 .name01 {
   margin-top: 10px;
