@@ -160,12 +160,12 @@ margin-left: 30%;
   width: 100%;
   display: inline-flex;
   margin: 0 auto;
-  padding: 10px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
   }
 
 .hero-text p {
   color: black;
-  font-size: 2.1em;
+  font-size: 1.7em;
   margin-top: 20px;
   line-height: 1.6em;
   letter-spacing: 2px;
@@ -215,6 +215,7 @@ margin-left: 30%;
   font-weight: 600;
   font-size: 1em;
   left: 115px;
+  top: 15px;
 }
 
 .read-more {
@@ -350,7 +351,7 @@ footer p {
 }
 
 .hero-text p {
-  font-size: 2.3em;
+  font-size: 1.9em;
   margin-bottom: 20px;
 }
 
@@ -386,6 +387,10 @@ margin-right: 80px;
 
 .hero-text {
   margin-top: 30px;
+}
+
+.hero-text p {
+  padding-left: 20px;
 }
 
 
@@ -494,6 +499,10 @@ margin-right: 80px;
 .hero-section img {
   left: -170px;
   top: 30px;
+}
+
+.hero-text p {
+  padding-left: 0px;
 }
 
 .portfolio-pieces {
