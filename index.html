@@ -6,68 +6,94 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>pj</title>
 <link rel="stylesheet" href="styles/index_style.css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro|Abhaya+Libre|Poppins|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600|Cutive+Mono" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon-m.png">
 </head>
 
 <body>
 	<div class="wrapper">
 
-<!-- temporary notice for viewers -->
-	<div class="construction" style="text-align: center; max-width: 700px; margin: 0 auto; margin-top: 20px; padding: 0 10px 0 10px; border: solid black 1px; font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;">
-		<p>Hi there! Please note that my site is <b>currently under construction</b> and that this is not the final design with my complete projects. Please stay tuned for updates and feel free to contact me for more info in the mean time!</p>
-	</div>
-
 			<header class="nav-down">
-					<div class="header-section">
-						<div class="name-logo">
+				<div class="header-section">
+					<div class="name-logo">
 							<h3><a href="index.html">pj.</a></h3>
-		      			</div>
+		      		</div>
 
 		      			<button class="mobile-menu">
 	      					<span>menu</span>
 	      				</button>
 
+					<div id="nav" class="nav">
 						<nav class="page-nav">
-							<ul id="nav" class="nav">
-								<li class="works">
+							<ul>
+								<li>
 									<a href="index.html" class="active">works</a></li>
-								<li class="explore">
+								<li>
 									<a href="explore.html">explore</a></li>
-								<li class="about">
-									<a href="about.html" class="">me</a></li>
+								<li>
+									<a href="about.html">me</a></li>
 							</ul>
 						</nav>
 					</div>
+
+				</div>
 	    	</header>
 
 	  <div id="hero-section" class="hero-section">
-	  	<!-- <img src="images/placeholder-hero.png"> -->
 	  	<div class="hero-text">
-	  		<p>Heyo! I'm Peijia, a (budding) multidisplinary designer with a focus in UI/UX & a cognitive systems student. I love understanding how and why people think the way they do, and how to capture that experience through design.</p>
-	  		<p class="last-hero-text">On the other hand, I like playing with flowers and eating cake for breakfast &#127856; &#127846; &#x2728;</p>
+	  		<p>Hi, I'm Peijia, a (budding) multidisplinary designer with a focus in UI/UX & a cognitive systems student. Currently on a gap year to work on my goals.</p>
 	  	</div>
+	  	<div class="desktop-only hero-designs">
+	  		<div class="desktop-only circle-thing"></div>
+	  		<!-- <img class="gif" src="images/snakeplant.gif"> -->
+	  	</div>
+	  		<img id="orange" class="orange" src="images/oranges.jpg">
 	  </div>
-
-	 <!--  <div class="view-here">
-	  	<p>See my work!</p>
-	  </div> -->
 
 <div class="portfolio-pieces">
 		
-		<a href="projects/fitness/fitness-is-my-forte.html" class="portfolio piece-one">
-			<p class="project-title">Fitness is my Forte</p>
-		</a>
+		<div class="project jrh">
+			<p class="number jrh-num">01</p>
+			<p class="type jrh-type">Client project</p>
+			<a href="projects/fitness/fitness-is-my-forte.html" class="portfolio piece-one">
+				<p class="project-title jrh-title">Fitness is my Forte</p>
+				<img src="images/smaller-blue.jpg">
+			</a>
+			<div class="project-description jrh-des">
+					<p class="roles">UX/UI design, branding, development</p>
+					<p class="summary">A client project made for a Vancouver fitness trainer</p>
+					<p class="read-more"><a href="projects/fitness/fitness-is-my-forte.html">Read the case study</p></a>
+			</div>
+		</div>
 
+		<div class="project personal">
+			<p class="number personal-num">02</p>
+			<p class="type personal-type">Personal project</p>
 		<a href="projects/my-portfolio.html" class="portfolio piece-two">
-			<p class="project-title">This portfolio</p>
+			<p class="project-title personal-title">This portfolio</p>
+			<img src="images/rainclouds.jpeg">
 		</a>
+			<div class="project-description personal-des">
+				<p class="roles">Design + development</p>
+				<p class="summary">The process in behind creating my personal portfolio site!</p>
+				<p class="read-more"><a href="projects/my-portfolio.html">Read the case study</p></a>
+			</div>
+		</div>
 
+		<div class="project eriko">
+			<p class="number eriko-num">03</p>
+			<p class="type eriko-type">Client project</p>
 		<a href="projects/eriko-sem.html" class="portfolio piece-three">
-			<p class="project-title">Eriko S.</p>
+			<p class="project-title eriko-title">Eriko S. design + site</p>
+			<img src="images/howlscastle.jpg">
 		</a>
-
-</div>
+			<div class="project-description eriko-des">
+				<p class="roles">Design + development</p>
+				<p class="summary">A personal site for an award-winning florist</p>
+				<p class="read-more"><a href="projects/eriko-sem.html">Read the case study</p></a>
+			</div>
+		</div> 
+</div><!-- end of featured portfolio -->
 
 	<footer>
 	  <div class="social">
@@ -76,8 +102,9 @@
 		<a href="https://www.linkedin.com/in/peijia-ding/"><img src="images/social-media/linkedin.svg" alt="linkedin"></a>
 		<a href="https://medium.com/@peijia.dng"><img src="images/social-media/medium.svg" alt="medium"></a>
 	  </div>
-      <p> &copy; 2018 Peijia Ding - created with &#9825; -</p>
+      <p> &copy; 2018 Peijia Ding - created + coded with &#9825; -</p>
 	</footer>
+
 </div><!-- end of wrapper -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"

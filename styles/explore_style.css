@@ -8,14 +8,14 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Apercu', sans-serif;
   margin: 0;
   display:flex;
-  background-color: white;
+  background-color: #fffcfb;
 }  
 
 a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   color: black;
 }
 
@@ -31,14 +31,14 @@ img {
 }
 
 footer p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 18px;
 }
 
@@ -85,8 +85,7 @@ border: none;
 background-color: transparent;
 position: relative;
 cursor: pointer;
-margin-right: 35px;
-margin-top: 3px;
+margin-right: 30px;
 }
 
 .page-nav {
@@ -98,7 +97,7 @@ margin-top: 3px;
   position: absolute;
   display: block;
   min-width: 160px;
-  z-index: 1;
+  z-index: 10;
   text-align: center;
   margin: 0 auto;
   margin-top: 60px;
@@ -106,7 +105,7 @@ margin-top: 3px;
 }
 
 .name-logo{
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .name-logo a {
@@ -115,8 +114,8 @@ margin-top: 3px;
   margin-bottom: 10px;
   font-family: 'Abhaya Libre', serif;
   letter-spacing: 0.3em;
-  font-size: 2em;
-  /*font-weight: 600;*/
+  font-size: 2.3em;
+  font-weight: 600;
 }
 
 .page-nav ul {
@@ -127,13 +126,20 @@ margin-top: 3px;
 }
 
 .page-nav li {
-  padding: 0 15px 30px 15px;
+  padding: 8px 15px 30px 15px;
+  /*margin-top: 8px;*/
 }
 
 .page-nav a {
-  font-family: 'Raleway', sans-serif;
   z-index: 30;
 }
+
+.page-nav li a.active {
+  color: orange;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
 
 /* main body*/
 
@@ -151,28 +157,32 @@ margin-top: 3px;
 
 .explore-main {
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 15px 20px 20px 20px;
 }
 
 
 main h1{
-font-family: 'Poppins', sans-serif;
-padding-top: 15px;
+/*padding-top: 15px;*/
 padding-bottom: 20px;
 letter-spacing: 0.1em;
 font-weight: 500;
 text-align: center;
 margin: 0 auto;
-font-size: 1.7em; 
+margin-top: 19px;
+font-size: 2em; 
 }
 
 .explore-blurb {
-  font-family: 'Raleway', sans-serif;
   text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  /*font-family: 'Abhaya Libre', serif;*/
+  text-align: left;
   margin: 0 auto;
   line-height: 1.5em;
-  font-size: 1em;
-  width: 70%;
+  font-size: 1.2em;
+  width: 80%;
+  border: black solid 1px;
+  padding: 5px 10px 5px 10px;
 }
 
 .explore-grid {
@@ -214,7 +224,7 @@ font-size: 1.7em;
 }
 
 .flower-title {
-  font-family: 'Poppins', sans-serif;
+/*  font-family: 'Poppins', sans-serif;*/
   font-style: italic;
   color: #F6B91D;
   text-shadow: 1px 1px white;
@@ -239,7 +249,7 @@ margin: 0 auto;
 }
 
 .photo-title {
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
   font-style: italic;
   color: #F59896;
   text-shadow: 1px 1px #F5CDD4;
@@ -264,7 +274,7 @@ margin: 0 auto;
 }
 
 .art-title {
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
   font-style: italic;
   color: #4BA4AB;
   text-shadow: 1px 1px #90C6F5;
@@ -285,7 +295,7 @@ footer {
   flex-flow: row wrap;
   text-align: center;
   justify-content: space-between;
-  margin: 30px 35px 20px 35px;
+  margin: 50px 35px 20px 35px;
 }
 
 .social {
@@ -308,26 +318,25 @@ footer p {
 
 /*media queries*/
 
-@media screen and (min-width: 380px){
+/*@media screen and (min-width: 380px){
 
   main {
   padding-top: 20px;
   margin: 0 auto;
   margin-bottom: 40px;
-}
+}*/
 
 
 }
 
 @media screen and (min-width: 400px){
 
-main {
+/*main {
   padding-top: 0px;
-}
+}*/
 
-.mobile-menu{
+.mobile-menu {
   display: none;
-
 }
 
 .page-nav {
@@ -346,7 +355,7 @@ main {
 
 .page-nav li {
   padding: 0 15px 0 15px;
-  margin-top: 8px;
+  /*margin-top: 8px;*/
 }
 
 .explore-grid {
@@ -366,6 +375,23 @@ grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 700px) {
+
+.mobile-menu {
+  display: none;
+}
+
+.page-nav {
+  display: block;
+  margin-top: 25px; 
+  margin-right: 80px;
+
+}
+
+.name-logo {
+  margin-left: 80px;
+}
+
+
 .explore-grid {
 grid-template-columns: 1fr 1fr;
 }
@@ -385,7 +411,7 @@ main h1 {
 .explore-blurb {
   line-height: 1.5em;
   font-size: 1.1em;
-  width: 600px;
+  width: 500px;
 }
 
 

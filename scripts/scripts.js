@@ -52,64 +52,26 @@ $btn.addEventListener('click', function(){
 window.onscroll = function() {myFunction()};
 
 var introBox = document.getElementById('hero-section');
+// var removeOrange = document.getElementById('orange');
 var changePoint = 200;
 
-//introBox.addEventListener('transitionend', hideEl);
+// removeOrange.addEventListener('transitionend', hideEl);
 
 function myFunction() {
   if (window.pageYOffset >= changePoint) {
     introBox.classList.add("not-sticky");
   } else {
-    introBox.style.display = 'block';
+    introBox.style.display = 'inline-flex';
     introBox.classList.remove("not-sticky");
 
   }
 }
 
-function hideEl(){
-    introBox.style.display = 'none';
-}
+// function hideEl(){
+//     removeOrange.style.display = 'none';
+// }
 
 
-// highlighting active item in menu
-
-// $(document).ready(function() { 
-//     $("#nav li .nav").click(function ( e ) {
-//         e.preventDefault();
-//         $("#nav li a.active").removeClass("active"); //Remove any "active" class  
-//         $(this).addClass("active"); //Add "active" class to selected tab  
-//         $(activeTab).show(); //Fade in the active content  
-//     });
-
-// console.log ('helloooo im ninoooo');
-
-// });
-
-
-
-$(document).ready(function(){
-    $("a[href*='" + location.pathname + "']").addClass("active");
-});
-
-$('.nav li a').on('click', function(){
-    $('li a.active').removeClass('active');
-    $(this).addClass('active');
-    $('li a.active').show(); //Fade in the active content  
-
-console.log ('what the fuhREAK');
-
-});
-
-// $(function(){
-//     var current = location.pathname;
-//     $('#nav li a').each(function(){
-//         var $this = $(this);
-//         // if the current path is like this link, make it active
-//         if($this.attr('href').indexOf(current) !== -1){
-//             $this.addClass('active');
-//         }
-//     })
-// })
 
 
 

@@ -8,14 +8,15 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Apercu', sans-serif;
   margin: 0;
   display:flex;
-  background-color: white;
-}  
+  background-color: #fffcfb;
+}
+
 
 a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   color: black;
 }
 
@@ -30,14 +31,14 @@ img {
 }
 
 footer p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 18px;
 }
 
@@ -84,8 +85,8 @@ border: none;
 background-color: transparent;
 position: relative;
 cursor: pointer;
-margin-right: 35px;
-margin-top: 3px;
+margin-right: 30px;
+/*margin-top: 3px;*/
 }
 
 .page-nav {
@@ -104,7 +105,7 @@ margin-top: 3px;
 }
 
 .name-logo {
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .name-logo a {
@@ -112,7 +113,7 @@ margin-top: 3px;
   margin: 0 auto;
   font-family: 'Abhaya Libre', serif;
   letter-spacing: 0.3em;
-  font-size: 2em;
+  font-size: 2.3em;
   font-weight: 600;
 }
 
@@ -124,12 +125,18 @@ margin-top: 3px;
 }
 
 .page-nav li {
-  padding: 0 15px 30px 15px;
+  padding: 8px 15px 30px 15px;
+  margin-top: 8px;
 }
 
 .page-nav a {
-  font-family: 'Raleway', sans-serif;
   z-index: 30;
+}
+
+.page-nav li a.active {
+  color: orange;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 
 /*start of body content*/
@@ -138,8 +145,8 @@ margin-top: 3px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  margin-top: 20px;
   max-width: 850px;
-  padding-top: 10px;
 }
 
 .intro-about img{
@@ -148,7 +155,7 @@ margin-top: 3px;
 }
 
 .key-about {
-  padding: 30px 30px 0px 30px;
+  padding: 30px 0px 0px 30px;
   margin: 0 auto;
 }
 
@@ -165,7 +172,7 @@ margin-top: 3px;
 }
 
 .name01{
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
   font-size: 1em;
   letter-spacing: 0.5px;
   padding: 0 10px 0 10px;
@@ -174,13 +181,14 @@ margin-top: 3px;
 }
 
 .goal-content {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 1em;
   padding: 10px 20px 0 20px ;
 }
 
 .goal {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Apercu', sans-serif;
+  font-weight: 300;
 }
 
 .goal-content ul {
@@ -217,7 +225,7 @@ footer {
   flex-flow: row wrap;
   text-align: center;
   justify-content: space-between;
-  margin: 30px 35px 20px 35px;
+  margin: 50px 35px 20px 35px;
 }
 
 .social {
@@ -280,6 +288,14 @@ footer p {
 
 @media screen and (min-width: 700px){
 
+.name-logo {
+margin-left: 80px;
+}
+
+.page-nav {
+margin-right: 80px;
+}
+
 .intro-about {
   display: flex;
   flex-direction: row;
@@ -305,7 +321,7 @@ footer p {
 }
 
 .name {
-  width: 400px;
+  /*width: 400px;*/
   text-align: left;
   padding-left: 10px;
   padding-bottom: 20px;
