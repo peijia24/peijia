@@ -8,15 +8,14 @@ html {
 }
 
 body {
-  /*font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Cutive Mono', monospace;
   margin: 0;
   display:flex;
   background-color: white;
 }  
 
 a {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Cutive Mono', monospace;
   color: black;
 }
 
@@ -32,14 +31,14 @@ img {
 }
 
 footer p{
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Cutive Mono', monospace;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Cutive Mono', monospace;
   font-size: 18px;
 }
 
@@ -57,6 +56,7 @@ header {
   left: 0;
   height: 90px;
   transition: top 0.35s ease-in-out;
+  z-index: 7000;
   }
 
   .nav-up {
@@ -66,7 +66,6 @@ header {
 /*end mobile follow menu*/
 
 .wrapper {
-  /*max-width: 1000px;*/
   width: 100%;
   margin: 0 auto;
 }
@@ -86,6 +85,7 @@ border: none;
 background-color: transparent;
 position: relative;
 cursor: pointer;
+/*margin-left: 30%;*/
 margin-right: 35px;
 }
 
@@ -98,7 +98,7 @@ margin-right: 35px;
   position: absolute;
   display: block;
   min-width: 160px;
-  z-index: 1;
+  z-index: 10;
   text-align: center;
   margin: 0 auto;
   margin-top: 60px;
@@ -106,16 +106,16 @@ margin-right: 35px;
 }
 
 .name-logo{
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .name-logo a {
   text-decoration: none;
   margin: 0 auto;
-  font-family: 'Lora', serif;
-  text-transform: uppercase;
-  letter-spacing: 0.7em;
-  font-size: 1em;
+  margin-bottom: 10px;
+  font-family: 'Abhaya Libre', serif;
+  letter-spacing: 0.3em;
+  font-size: 2.3em;
   font-weight: 600;
 }
 
@@ -127,7 +127,8 @@ margin-right: 35px;
 }
 
 .page-nav li {
-  padding: 0 15px 30px 15px;
+  padding: 8px 15px 30px 15px;
+  margin-top: 8px;
   
 }
 
@@ -139,12 +140,16 @@ margin-right: 35px;
 }
 
 .flower-title {
-  font-family: 'Lora', serif;
-  letter-spacing: 0.1em;
-  font-size: 25px;
+  font-family: 'Abhaya Libre', serif;
+  letter-spacing: 0.2em;
+  font-size: 2em;
   font-weight: 600;
   margin: 0 auto;
   padding: 10px;
+}
+
+.text {
+  font-family: 'Cutive Mono', monospace;
 }
 
 .floral-text {
@@ -153,9 +158,9 @@ margin-right: 35px;
 }
 
 .thoughts-end {
-  font-family: 'Lora', serif;
+  font-family: 'Abhaya Libre', serif;
   letter-spacing: 0.1em;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: 300;
   margin: 0 auto;
   padding: 10px;
@@ -169,7 +174,6 @@ margin-right: 35px;
   padding: 10px;
   margin: 0 auto;
   line-height: 1.3em;
-  font-family: 'Inconsolata', monospace;
 }
 
 .sentence {
@@ -188,7 +192,7 @@ margin-right: 35px;
 }
 
 .ty {
-  font-family: 'Lora', serif;
+  font-family: 'Abhaya Libre', serif;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 25px;
@@ -196,7 +200,6 @@ margin-right: 35px;
 
 .thanks {
   font-size: 15px;
-  font-family: 'Inconsolata', monospace;
 }
 
 .flower-grid {

@@ -290,6 +290,11 @@ margin: 0 auto;
   text-align: center;
 }
 
+.bloop {
+  background-color: #f4b770;
+  width: 90%;
+}
+
 footer {
   display: flex;
   flex-flow: row wrap;
