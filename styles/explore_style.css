@@ -12,7 +12,14 @@ body {
   margin: 0;
   display:flex;
   background-color: #fffcfb;
-}  
+  -webkit-animation: fadein 2.5s;
+  -moz-animation: fadein 2.5s;
+} 
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 a {
   font-family: 'Cutive Mono', monospace;
@@ -209,6 +216,16 @@ font-size: 2em;
 
 .item-title {
   max-width: 300px;
+  font-family: 'Abhaya Libre', serif;
+  background: rgba(244, 183, 112, 0.4);
+  font-size: 1.6em;
+  font-weight: 600;
+  position: relative;
+  z-index: 5;
+  margin: 0 auto;
+  text-align: center;
+
+  /*text-transform: uppercase;*/
 }
 
 .item01 {
@@ -224,20 +241,11 @@ font-size: 2em;
 }
 
 .flower-title {
-/*  font-family: 'Poppins', sans-serif;*/
-  font-style: italic;
-  color: #F6B91D;
+  /*color: #F6B91D;*/
+  color: #ffb801;
   text-shadow: 1px 1px white;
-  text-transform: uppercase;
-  letter-spacing: 0.7em;
-  line-height: 1.7em;
-  font-size: 1.6em;
-  font-weight: 600;
-  position: relative;
-  z-index: 5;
   top: -185px;
-  margin: 0 auto;
-  text-align: center;
+  letter-spacing: 0.7em;
 }
 
 .item02 {
@@ -249,20 +257,10 @@ margin: 0 auto;
 }
 
 .photo-title {
-  /*font-family: 'Poppins', sans-serif;*/
-  font-style: italic;
   color: #F59896;
   text-shadow: 1px 1px #F5CDD4;
-  text-transform: uppercase;
-  letter-spacing: 0.7em;
-  line-height: 1.7em;
-  font-size: 1.6em;
-  font-weight: 600;
-  position: relative;
-  z-index: 5;
-  top: -215px;
-  margin: 0 auto;
-  text-align: center;
+  letter-spacing: 0.5em;
+  top: -185px;
 }
 
 .item03 {
@@ -274,25 +272,23 @@ margin: 0 auto;
 }
 
 .art-title {
-  /*font-family: 'Poppins', sans-serif;*/
-  font-style: italic;
   color: #4BA4AB;
   text-shadow: 1px 1px #90C6F5;
-  text-transform: uppercase;
   letter-spacing: 0.7em;
-  line-height: 1.7em;
-  font-size: 1.6em;
-  font-weight: 600;
-  position: relative;
-  z-index: 5;
-  top: -195px;
-  margin: 0 auto;
-  text-align: center;
+  top: -185px;
 }
 
 .bloop {
   background-color: #f4b770;
   width: 90%;
+}
+
+.soon-title {
+  top: -150px;
+  position: relative;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  margin: 0 auto;
 }
 
 footer {

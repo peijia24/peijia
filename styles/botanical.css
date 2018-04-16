@@ -12,7 +12,14 @@ body {
   margin: 0;
   display:flex;
   background-color: white;
+  -webkit-animation: fadein 2.5s;
+  -moz-animation: fadein 2.5s;
 }  
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 a {
   font-family: 'Cutive Mono', monospace;
