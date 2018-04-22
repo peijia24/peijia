@@ -11,7 +11,7 @@ body {
   font-family: 'Apercu', sans-serif;
   margin: 0;
   display: flex;
-  background-color: #fffcfb;
+  background-color: #fefbfa;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 }  
@@ -274,10 +274,9 @@ color: blue;
 
 footer {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   text-align: center;
-  justify-content: space-between;
-  margin: 30px 35px 20px 35px;
+  margin: 0px 35px 20px 35px;
 }
 
 .social {

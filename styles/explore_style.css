@@ -11,7 +11,7 @@ body {
   font-family: 'Apercu', sans-serif;
   margin: 0;
   display:flex;
-  background-color: #fffcfb;
+  background-color: #fefbfa;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 } 
@@ -293,9 +293,8 @@ margin: 0 auto;
 
 footer {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   text-align: center;
-  justify-content: space-between;
   margin: 50px 35px 20px 35px;
 }
 
