@@ -164,13 +164,19 @@ margin-right: 35px;
   margin-top: 0;
 }
 
-.thoughts-end {
+.floral-links {
+  padding-left: 10px;
+}
+
+.floral-links a {
   font-family: 'Abhaya Libre', serif;
   letter-spacing: 0.1em;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 300;
-  margin: 0 auto;
-  padding: 10px;
+}
+
+.process {
+  width: 90%;
 }
 
 .item00 {
@@ -229,10 +235,9 @@ margin-right: 35px;
 
 footer {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   text-align: center;
-  justify-content: space-between;
-  margin: 30px 35px 20px 35px;
+  margin: 50px 35px 20px 35px;
 }
 
 .social {

@@ -11,7 +11,7 @@ body {
   font-family: 'Apercu', sans-serif;
   margin: 0;
   display:flex;
-  background-color: #fefbfa;
+  background-color: #fff9f9;;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 } 

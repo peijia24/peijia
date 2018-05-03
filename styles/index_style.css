@@ -11,7 +11,7 @@ body {
   font-family: 'Apercu', sans-serif;
   margin: 0;
   display: flex;
-  background-color: #fefbfa;
+  background-color: #fff9f9;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 }  
@@ -194,7 +194,6 @@ margin-left: 30%;
   font-family: 'Abhaya Libre', serif;
   font-size: 2em;
   font-weight: 600;
-  color: blue;
   display: block;
   position: relative;
   letter-spacing: 4px;
@@ -249,11 +248,11 @@ margin-left: 30%;
 
 .jrh-num {
 margin-bottom: 30px;
-color: blue;
+color: #5fcbdf;
 }
 
 .jrh-title {
-  color: blue;
+  color: #5fcbdf;
 }
 
 .personal-num {
@@ -550,7 +549,7 @@ margin-right: 80px;
 
 .jrh-num {
   top: -99px;
-  color: blue;
+  color: #5fcbdf;
 }
 
 .jrh-type {
@@ -571,7 +570,7 @@ margin-right: 80px;
 
 .jrh-des {
   left: 560px;
-  top: -225px;
+  top: -185px;
   width: 66%;
 }
 
