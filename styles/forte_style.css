@@ -22,11 +22,12 @@ body {
     to   { opacity: 1; }
 }
 
+
 h2, h4 {
   /*font-family: 'Abhaya Libre', serif;*/
   /*font-family: 'Nunito Sans', sans-serif;*/
   /*font-family: 'Apercu', sans-serif;*/
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
   font-weight: 300;
   letter-spacing: 0.1em;
 }
@@ -36,8 +37,28 @@ a {
   color: black;
 }
 
-li {
+.text a {
+  font-family: 'Apercu', sans-serif;
+  text-decoration: underline;
+}
+
+.text a:hover {
+  color: grey;
+}
+
+.page-nav li {
   list-style: none;
+}
+
+li {
+list-style: circle;
+line-height: 1.5em;
+letter-spacing: 0.5;
+}
+
+p {
+line-height: 1.5em;
+letter-spacing: 0.5px;
 }
 
 img {
@@ -156,11 +177,15 @@ margin-right: 35px;
   width: 95%;
 }
 
+.core-title {
+  color: grey;
+}
+
 .project-title {
   font-family: 'Apercu', sans-serif;
   text-align: center;
   letter-spacing: 0.3em;
-  font-size: 1.7em;
+  font-size: 1.9em;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0 auto;
@@ -192,8 +217,8 @@ margin-right: 35px;
   margin-bottom: 45px;
 }
 
-.project-brief {
-  text-align: center;
+.project-brief-bottom {
+  /*text-align: center;*/
   /*width: 90%;*/
   padding-bottom: 45px;
   border-bottom: black solid 1px;
@@ -240,15 +265,16 @@ margin-top: 30px;
 
 .discovery-content ul {
   line-height: 1.3em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.5px;
 }
 
 
-.discovery-content li {
+/*.discovery-content li {
 list-style: circle;
 line-height: 1.3em;
-letter-spacing: 0.1em;
-}
+letter-spacing: 0.5;
+}*/
+
 
 /*.text {
   font-family: 'Montserrat', sans-serif;

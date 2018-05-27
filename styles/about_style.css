@@ -288,7 +288,8 @@ margin-right: 80px;
 }
 
 .name {
-  text-align: left;
+  /*text-align: left;*/
+  text-align: center;
   padding-left: 10px;
   padding-bottom: 20px;
 }
