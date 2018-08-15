@@ -254,6 +254,10 @@ footer p {
 
 @media screen and (min-width: 700px){
 
+.mobile-menu {
+  display: none;
+}
+
 .name-logo {
 margin-left: 80px;
 }
