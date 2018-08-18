@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Apercu';
-  src: url('../fonts/apercu-regular-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/apercu-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url('../fonts/apercu-regular-webfont.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/apercu-medium.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/apercu-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/apercu-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
