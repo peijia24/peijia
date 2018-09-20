@@ -451,7 +451,7 @@ margin-right: 80px;
 }
 
 .hero-text p {
-  font-size: 2.4em;
+  font-size: 2.3em;
   line-height: 1.7em;
 }
 
@@ -469,7 +469,7 @@ margin-right: 80px;
   z-index: 30;
   position: relative;
   right: 110px;
-  top: 210px;
+  top: 200px;
 }
 
 .desktop-only .circle-thing {
@@ -483,7 +483,7 @@ margin-right: 80px;
   z-index: -100;
   position: absolute;
   right: 240px;
-  top: 100px;
+  top: 105px;
 }
 
 .portfolio-pieces {
@@ -502,7 +502,7 @@ margin-right: 80px;
 
 .hero-section img {
   left: -170px;
-  top: 50px;
+  top: 80px;
 }
 
 .hero-text p {
@@ -541,7 +541,7 @@ margin-right: 80px;
 .project-title {
   font-size: 6em;
   line-height: 0.8em;
-  width: 80%;
+  width: 81%;
   position: absolute;
 }
 
@@ -587,12 +587,13 @@ margin-right: 80px;
 
 .personal-num {
   top: -99px;
-  color: orange;
+  color: #cc0606;
 }
 
 .personal-type {
   left: 150px;
   top: -50px;
+  /*color:  #42bbb7;*/
 }
 
 .personal {
@@ -604,14 +605,18 @@ margin-right: 80px;
 .personal-title {
   right: 450px;
   top: -110px;
-  color: orange;
+  color: #cc0606;
 }
 
 .personal-des {
   right: 365px;
-  top: -190px;
+  top: -210px;
   width: 70%;
 }
+
+/*.habit {
+  background-color: #42bbb7;
+}*/
 
 /* eriko styling */
 
@@ -645,11 +650,95 @@ margin-right: 80px;
 
 .personal img {
   height: 350px;
+  /*margin-left: 35px;*/
 }
 
 .eriko img {
   height: 350px;
 }
+
+/* camera styling */
+
+.project.camera {
+  padding-left: 30px;
+}
+
+.camera-num {
+  top: -99px;
+  color: #505e82;
+}
+
+.camera-type {
+  left: 150px;
+  top: -50px;
+  /*color: #505e82;*/
+}
+
+.camera {
+  left: 170px;
+  display: block;
+  position: relative;
+}
+
+.camera-title {
+  right: 450px;
+  top: -110px;
+  color: #505e82;
+}
+
+.camera-des {
+  right: 365px;
+  top: -140px;
+  width: 70%;
+}
+
+.project4-img {
+  height: 80%;
+}
+
+
+/* eriko styling */
+
+.mine-num {
+  top: -99px;
+  color: #397143d4;
+}
+
+.mine-type {
+ right: -150px;
+ top: -50px;
+}
+
+.mine {
+  right: 150px;
+  display: block;
+  position: relative;
+}
+
+.mine-title {
+  left: 500px;
+  top: -155px;
+  color: #397143d4;
+}
+
+.mine-des {
+  left: 560px;
+  top: -240px;
+  width: 66%;
+}
+
+.mine img {
+  height: 350px;
+  /*margin-left: 35px;*/
+}
+
+.mine img {
+  height: 350px;
+}
+
+
+
+
 
 }
 

@@ -65,6 +65,7 @@ img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  padding: 20px 0 20px 0;
 }
 
 footer p{
@@ -196,7 +197,7 @@ margin-right: 35px;
 .sub-title {
   margin: 0 auto;
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1.4em;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -247,18 +248,19 @@ margin-top: 30px;
   margin: 0px;
 }
 
-.question-title {
-
-}
 
 .question {
   line-height: 1.5em;
   /*font-family: 'Cutive Mono', monospace;*/
 }
 
+/*.forte-question {
+  margin: 30px 0 30px 0;
+}*/
+
+
 .text {
   line-height: 1.5em;
-  /*letter-spacing: 0.1em;*/
   letter-spacing: 0.5px;
 }
 
@@ -379,6 +381,102 @@ footer p {
   margin: 0 auto;
 }
 
+.intro {
+  line-height: 1em;
+}
+
+/*desk top design start*/
+
+.brief {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary {
+  width: 700px;
+}
+
+.project-title {
+  text-align: left;
+  width: 70%;
+  margin: 0;
+}
+
+.sub-title {
+  text-align: left;
+  width: 45%;
+  margin: 0;
+  font-size: 1em;
+  padding: 30px 0 30px 0;
+}
+
+.timeline {
+  text-align: left;
+  width: 45%;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.project-brief-bottom.text {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+
+.intro-tgt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .intro {
+  display: block;
+}
+
+.client {
+  text-align: right;
+}
+
+.highlight {
+  background-color: lightblue;
+}
+
+.ask {
+    text-align: center;
+}
+
+.goals {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.bizgoals {
+  width: 300px;
+  display: block;
+  padding: 30px;
+  padding: 0 30px 0 30px;
+  border: 2px solid #9CCDC9;
+}
+
+.sitegoals {
+  width: 300px;
+  display: block;
+  text-align: left;
+  padding: 0 30px 0 30px;
+  border: 2px solid #9CCDC9;
+  /*text-align: right;*/
+}
+
+/*.text {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}*/
+
+
+
+
 }
 
 @media screen and (min-width: 1000px){
@@ -391,6 +489,9 @@ footer p {
 .text {
   font-size: 1em;
 }
+
+
+
   
 }
 
@@ -398,7 +499,7 @@ footer p {
 @media screen and (min-width: 1200px){
 
 .core {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
