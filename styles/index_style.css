@@ -687,7 +687,7 @@ margin-right: 80px;
 .camera-type {
   left: 150px;
   top: -50px;
-  /*color: #505e82;*/
+  color: #505e82;
 }
 
 .camera {
@@ -699,7 +699,7 @@ margin-right: 80px;
 .camera-title {
   right: 450px;
   top: -110px;
-  /*color: #505e82;*/
+  color: #505e82;
 }
 
 .camera-des {
@@ -717,7 +717,7 @@ margin-right: 80px;
 
 .mine-num {
   top: -99px;
-/*  color: #397143d4;*/
+  color: #397143d4;
 }
 
 .mine-type {
@@ -734,7 +734,7 @@ margin-right: 80px;
 .mine-title {
   left: 500px;
   top: -155px;
-  /*color: #397143d4;*/
+  color: #397143d4;
 }
 
 .mine-des {
