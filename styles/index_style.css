@@ -33,7 +33,6 @@ li {
 img {
   max-width: 100%;
   height: auto;
-  /*margin: 0 auto;*/
 }
 
 footer p{
@@ -44,7 +43,6 @@ footer p{
 }
 
 button {
-  /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Cutive Mono', monospace;
   font-size: 18px;
 }
@@ -246,6 +244,10 @@ margin-left: 30%;
   position: relative;
 }
 
+/*individual case study details*/
+
+/*project 1*/
+
 .jrh-num {
 margin-bottom: 30px;
 color: #5fcbdf;
@@ -255,6 +257,8 @@ color: #5fcbdf;
   color: #5fcbdf;
 }
 
+/*project 2*/
+
 .personal-num {
   color: orange;
 }
@@ -263,6 +267,8 @@ color: #5fcbdf;
   color: orange;
 }
 
+/*project 3*/
+
 .eriko-num {
   color: #f6a192;
 }
@@ -270,6 +276,19 @@ color: #5fcbdf;
 .eriko-title {
   color: #f6a192;
 }
+
+/*project 4*/
+
+.camera-num .camera-title {
+  color: #505e82;;
+}
+
+/*project 5*/
+
+.mine-num .mine-title {
+  color: #397143d4;
+}
+
 
 footer {
   display: flex;
@@ -337,8 +356,6 @@ footer p {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-.
 
 }
 
@@ -665,7 +682,6 @@ margin-right: 80px;
 
 .camera-num {
   top: -99px;
-  color: #505e82;
 }
 
 .camera-type {
@@ -683,7 +699,7 @@ margin-right: 80px;
 .camera-title {
   right: 450px;
   top: -110px;
-  color: #505e82;
+  /*color: #505e82;*/
 }
 
 .camera-des {
@@ -701,7 +717,7 @@ margin-right: 80px;
 
 .mine-num {
   top: -99px;
-  color: #397143d4;
+/*  color: #397143d4;*/
 }
 
 .mine-type {
@@ -718,7 +734,7 @@ margin-right: 80px;
 .mine-title {
   left: 500px;
   top: -155px;
-  color: #397143d4;
+  /*color: #397143d4;*/
 }
 
 .mine-des {

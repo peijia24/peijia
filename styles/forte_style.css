@@ -43,7 +43,7 @@ a {
 }
 
 .text a:hover {
-  color: grey;
+  color: #ffc32f;
 }
 
 .page-nav li {
@@ -216,6 +216,14 @@ margin-right: 35px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 45px;
+}
+
+/*business card image style*/
+.card-img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .project-brief-bottom {
@@ -465,14 +473,7 @@ footer p {
   text-align: left;
   padding: 0 30px 0 30px;
   border: 2px solid #9CCDC9;
-  /*text-align: right;*/
 }
-
-/*.text {
-  width: 95%;
-  margin: 0 auto;
-  padding: 0 0 20px 0;
-}*/
 
 
 
@@ -489,8 +490,6 @@ footer p {
 .text {
   font-size: 1em;
 }
-
-
 
   
 }
