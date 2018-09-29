@@ -313,7 +313,8 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 50px 35px 20px 35px;
+  /*margin: 50px 35px 20px 35px;*/
+  padding: 50px 35px 20px 35px;
 }
 
 .social {
@@ -341,6 +342,71 @@ footer p {
   display: flex;
   flex-direction: flex-end;
   margin: 0 auto;
+}
+
+
+/*other projects stylings*/
+
+/*.other-projects {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+*/
+
+.other-projects {
+  margin: 0 auto;
+  /*width: 90%;*/
+  /*background-color: rgba(245, 201, 186, 0.6);*/
+
+}
+
+/*.other-projects p {
+  text-align: left;
+    width: 90%;
+  
+}*/
+
+.other-title {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 12%;
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+/*.other-link p a {
+  font-family: 'Abhaya Libre', serif;
+}*/
+
+.project-next {
+  width: 90%;
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0 20px 0;
+}
+
+.other-projects p {
+  line-height: 1.3em;
+  margin: 0;
+}
+
+.other-projects a {
+/*font-family: 'Apercu', sans-serif;*/
+font-family: 'Abhaya Libre', serif;
+font-size: 1.4em;
+text-decoration: none;
+}
+
+.other-projects a:hover {
+  color: orange;
+}
+
+.bottom {
+  background-color: rgba(245, 201, 186, 0.3);
 }
 
 /*media queries here*/
@@ -496,6 +562,8 @@ footer p {
 
 
 
+
+
 }
 
 @media screen and (min-width: 1000px){
@@ -507,6 +575,29 @@ footer p {
 
 .text {
   font-size: 1em;
+}
+
+/* other project styling */
+
+.other-projects {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.project-next {
+  width: 90%;
+  margin-right: 200px;
+}
+
+.other-title {
+  padding-top: 50px;
+  /*display: block;*/
+}
+
+.actual-other {
+  margin-top: 45px;
 }
 
   
