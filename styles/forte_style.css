@@ -614,8 +614,12 @@ text-decoration: none;
 }
 
 .wf-disclaimer {
-  display: block;
+  margin-top: 0;
 }
+
+/*.wf-disclaimer {
+  display: block;
+}*/
 
 
 
@@ -654,6 +658,7 @@ text-decoration: none;
 .desktop-wf-collection img {
 padding-top: 10px;
 }
+
 
 /*.desktop-wf-collection img {
   width: 50%;
