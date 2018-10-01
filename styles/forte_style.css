@@ -103,6 +103,10 @@ img {
   padding: 10px;
 }
 
+.forte-wf-2 {
+  padding-bottom: 0px;
+}
+
 footer p{
   font-family: 'Cutive Mono', monospace;
   font-size: 0.85em;
@@ -437,6 +441,7 @@ text-decoration: none;
   padding-top: 20px;
   margin: 0 auto;
 }
+
 }
 
 
@@ -591,6 +596,27 @@ text-decoration: none;
   padding: 15px;
 }
 
+.desktop-wf-collection img {
+  width: 50%;
+}
+
+.forte-wf-2 {
+  position: relative;
+  float: right;
+  padding-bottom: 0;
+}
+
+#desktop-wireframe img {
+  width: 50%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+
+.wf-disclaimer {
+  display: block;
+}
+
 
 
 }
@@ -611,6 +637,31 @@ text-decoration: none;
 .video-description {
   margin-top: 30px;
 }
+
+.phone-vid {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+
+.phone-des {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+/*wireframe styling*/
+
+.desktop-wf-collection img {
+padding-top: 10px;
+}
+
+/*.desktop-wf-collection img {
+  width: 50%;
+  height: auto;
+  left: 0;
+  top: 0;
+}*/
+
 
 
 /* other project styling */
@@ -654,6 +705,9 @@ text-decoration: none;
 
 .video-description {
   margin-top: 80px;
+}
+.phone-des {
+  margin-top: 70px;
 }
 
 }
