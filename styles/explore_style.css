@@ -167,7 +167,7 @@ margin-right: 30px;
 }
 
 main h1 {
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   letter-spacing: 0.1em;
   font-weight: 300;
   text-align: center;
@@ -180,7 +180,7 @@ main h1 {
   text-align: center;
   text-align: left;
   margin: 0 auto;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.6em;
   width: 80%;
   /*border: black solid 1px;*/
@@ -372,6 +372,10 @@ footer p {
   grid-template-columns: 1fr 1fr;
 }
 
+.explore-blurb {
+  text-align: center;
+}
+
 
 }
 
@@ -388,7 +392,6 @@ main h1 {
 
 .explore-blurb {
   line-height: 1.6em;
-  font-size: 1.1em;
   width: 700px;
 }
 
