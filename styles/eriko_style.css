@@ -23,7 +23,7 @@
 }
 
 .site-link {
-  padding: 10px 20px 10px 20px;
+  padding: 10px;
   background-color: #FF8766;
   width: 150px;
   border-radius: 15px;
@@ -34,8 +34,13 @@
 .site-link p {
   margin: 0;
   text-align: center;
-  width: 50px;
+  /*width: 50px;*/
 }
+
+.text a {
+	text-decoration: none;
+}
+
 
 /*video styling*/
 
