@@ -1,0 +1,23 @@
+.open-img {
+	width: 80%;
+}
+
+.summary p {
+	margin-top: 0;
+}
+
+.comm-mockups {
+	/*display: flex;*/
+	width: 50%;
+	height: auto;
+}
+
+/*.mockup-tgt {
+	display: flex;
+	justify-content: space-between;
+}*/
+
+/*.waitibit-mockup {
+	width: 300px;
+	height: auto;
+}*/

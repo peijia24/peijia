@@ -260,11 +260,13 @@ color: #5fcbdf;
 /*project 2*/
 
 .personal-num {
-  color: orange;
+  /*color: orange;*/
+  color: #cc0606
 }
 
 .personal-title {
-  color: orange;
+  /*color: orange;*/
+  color: #cc0606;
 }
 
 /*project 3*/
@@ -522,7 +524,7 @@ margin-right: 80px;
 @media screen and (min-width: 900px){
 
 .hero-section {
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .hero-section img {

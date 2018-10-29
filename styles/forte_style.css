@@ -318,6 +318,32 @@ margin-top: 30px;
 }
 
 
+/* site link styling */
+
+.site-link a {
+  font-family: 'Apercu', sans-serif;
+  text-decoration: none;
+}
+
+.site-link:hover {
+  background-color: #E4EAF0;
+}
+
+.site-link {
+  padding: 10px;
+  background-color: #A3DBDE;
+  width: 150px;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  /*margin: 0 auto;*/
+}
+
+.site-link p {
+  margin: 0;
+  text-align: center;
+}
+
+
 /*.discovery-content li {
 list-style: circle;
 line-height: 1.3em;
@@ -511,6 +537,10 @@ text-decoration: none;
 
 .summary {
   width: 700px;
+}
+
+.summary p {
+  line-height: 0.7em;
 }
 
 .project-title {
