@@ -360,6 +360,14 @@ margin-left: 30%;
   font-style: italic;
 }
 
+.visible-title {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+
+
+
 
 footer {
   display: flex;
@@ -592,9 +600,10 @@ margin-right: 80px;
   margin-top: 490px;
 }
 
-.future-projects {
-
+.visible-title {
+ display: none;
 }
+
 
 }
 

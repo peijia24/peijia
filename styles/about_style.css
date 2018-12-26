@@ -166,11 +166,11 @@ margin-right: 30px;
 
 .intro-about img{
   height: 100%;
-  width: 90%;
+  width: 100%;
 }
 
 .key-about {
-  padding: 30px 30px 0px 30px;
+  padding: 30px 10px 0px 10px;
   margin: 0 auto;
 }
 
@@ -291,7 +291,7 @@ margin-right: 80px;
 }
 
 .key-about p {
-  width: 660px;
+  width: 690px;
 }
 
 .main-about {
@@ -325,10 +325,6 @@ margin-right: 80px;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
-}
-
-.key-about p {
-  width: 660px;
 }
 
 .main-about {
