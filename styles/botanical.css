@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   display:flex;
   background-color: white;
@@ -22,9 +22,22 @@ body {
 }
 
 a {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
   color: black;
 }
+
+a:hover{
+  color: #4C5B7F;
+}
+
+.text a {
+  letter-spacing: 1px;
+  text-decoration: underline;
+  color: #4C5B7F;
+}
+
 
 li {
   list-style: none;
@@ -38,14 +51,14 @@ img {
 }
 
 footer p{
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
 
@@ -93,7 +106,6 @@ background-color: transparent;
 position: relative;
 cursor: pointer;
 margin-left: 30%;
-/*margin-right: 35px;*/
 }
 
 .page-nav {
@@ -136,9 +148,29 @@ margin-left: 30%;
 .page-nav li {
   padding: 8px 15px 30px 15px;
   margin-top: 8px;
-  
 }
 
+.page-nav li a.active {
+  color: orange;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.hero-text {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-text p {
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin: 0 auto;
+}
 
 /* STYLING FOR FLORIST PAGE*/
 
@@ -156,7 +188,8 @@ margin-left: 30%;
 }
 
 .text {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
 }
 
 .floral-text {
@@ -170,9 +203,15 @@ margin-left: 30%;
 
 .floral-links a {
   font-family: 'Abhaya Libre', serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
   font-size: 1em;
   font-weight: 300;
+  text-decoration: underline;
+  color: black;
+}
+
+.floral-links a:hover {
+  color: #4C5B7F;
 }
 
 .process {
@@ -233,6 +272,7 @@ margin-left: 30%;
   height: auto;
 }
 
+
 footer {
   display: flex;
   flex-direction: column;
@@ -251,10 +291,15 @@ footer {
   margin-top: 0;
 }
 
+.social img:hover {
+  background-color: #4C5B7F;
+}
+
 footer p {
   display: flex;
   flex-direction: flex-end;
   margin: 0 auto;
+  letter-spacing: 2px;
 }
 
 /*media queries*/
@@ -268,6 +313,16 @@ footer p {
 
 .flower-grid img {
   max-width: 320px;
+}
+
+.item04 {
+  border: 1px black solid;
+}
+
+.item04 p {
+  padding: 10px;
+  margin: 0 auto;
+  line-height: 1.3em;
 }
 
 }
@@ -309,6 +364,10 @@ footer p {
 
 @media screen and (min-width: 600px) {
 
+.hero-text p {
+  width: 700px;
+}
+
 .flower-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
@@ -326,15 +385,17 @@ footer p {
 }
 
 .item01 img {
-  height: 100%;
+  /*height: 100%;*/
+  /*height: 500px;*/
   width: 100%;
   object-fit: cover;
 }
 
 .item02 img {
   grid-row: auto;
-  width: 100%;
-  height: 100%;
+  height: 366px;
+  /*width: 100%;*/
+  /*height: 30%;*/
   object-fit: cover;
 }
 
@@ -346,8 +407,12 @@ footer p {
 .item04 {
   grid-column: auto / span 1;
   background-color: #bb7366;
-
 }
+
+.item04 {
+  border: none;
+}
+
 
 .item05 {
   grid-column: span 1;
@@ -363,7 +428,11 @@ footer p {
 .item07 {
   grid-column: auto / span 2;
   grid-row: auto / span 2;
+  height: 450px;
+  object-fit: cover;
 }
+
+
 
 .item06 img {
   height: 100%;
@@ -505,7 +574,7 @@ margin-right: 80px;
 
 .flower-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)) ;
 }
 
 main {

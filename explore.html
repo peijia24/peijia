@@ -5,9 +5,10 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>pj</title>
-<link rel="stylesheet" href="styles/explore_style.css">
+<link rel="stylesheet" href="styles/botanical.css">
+<link rel="stylesheet" href="styles/photo_explore.css">
 <link rel="stylesheet" href="styles/fonts.css">
-<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Cutive+Mono|Karla" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Lato:300|Karla" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon-m.png">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124020979-1"></script>
 <script>
@@ -46,52 +47,75 @@
 
 
 <main>
-	<div class="explore-main">
-		<h1>A place for my other hobbies.</h1>
-		<!-- <p class="explore-blurb">Some other things I like: my friends, rainy days (like emo, POURING rain and I will still like it), archeology, stickers because I'm really 5 y/o, cinematography and laughing ☺︎ </p> -->
+
+	<div class="hero-text">
+	  		<p>In my spare time, I like to play with flowers and channel my inner National Geographic photographer with an iPhone.</p>
 	</div>
 
-	<div class="explore-grid">
-	<div class="item item01">
-		<a href="florist.html">
-			<!-- <img src="images/flower-cover.jpg" alt="image of a bouquet"> -->
-			<video autoplay loop muted playsinline width="320" height="300">
-			  	<source src="images/flora/engagement.mov" type="video/mp4">
-			</video>
-			<p class="item-title flower-title">Botanical design.</p>
-		</a>
-	</div>
+	<!-- flower market -->
+	<div class="flower-grid">
+		<div class="item item00">
+			<h3 class="flower-title">The flowers.</h3>
+			<p class="text">For my part-time job, I'm also a floral designer at <a href="http://www.celsiaflorist.com/">Celsia</a>! &#x263A;
+			<br><br> My work ranges from everyday bouquets to event design, where I currently specialize in wedding and editorial <a href="https://www.instagram.com/celsiafloral/">work.
+			</p></a>
+			<p class="text">To be honest, floral design was sort of the first "design-y" thing that set off my design journey, because I was creating a tangible product for a time, space and real people.</p>
+		</div>
+		<div class="item item01"><img src="images/flora/vasia.png" alt="bouquet of black and white flowers"></div>
+		<div class="item item02"><img src="images/flora/classic-side.jpg" alt="partial image of soft pink and black arrangement"></div>
+		<div class="item item03"><img src="images/flora/plant-cloud.jpg" alt="a cloud structure made of smokebush"></div>
+		<div class="item item04"><img src="images/flora/trumpet-flower.JPG" alt="red trumpet flowers">
+			<h3 class="flower-title">My thoughts.</h3>
+			<p class="text">Well, I like flowers because they're pretty and smell good...</p>
+			<p class="text">Thus here are a couple of interesting articles to help further explain my love for floral design:</p>
+			<p class="floral-links"><a href="https://melmagazine.com/before-emojis-there-was-the-secret-language-of-flowers-cf8aee0a44d1">Before Emojis, There Was the Secret Language of Flowers</a></p>
+			<p class="floral-links"><a href="https://thecreative.cafe/buy-yourself-flowers-34061807db23">Buy Yourself Flowers</a></p>
+			<p class="floral-links"><a href="https://medium.com/thrive-global/a-life-lesson-from-flowers-6dd1dee6b727">A Life Lesson From Flowers</a></p>
+			<p class="text">Kind of cool, right?</p>
+		</div>
+		<div class="item item05"><img src="images/flora/papaya.jpg" alt="a table layout with orange tones, featuring a papaya and tropical flowers"></div>
+		<div class="item item06"><img src="images/flora/yellow-tones.jpg" alt="an arrangement of yellow, orange and peach flowers"></div>
+	</div><!-- end of flower market -->
 
-	<div class="item item02">
-		<a href="fotos.html">
-			<!-- <img src="images/mountains-cover.jpg" alt="the Meilixueshan mountain ranges"> -->
-			<video autoplay loop muted playsinline width="320" height="320">
-		  		<source src="images/intro-2.mp4" type="video/mp4">
-		  	</video>
-		  	<p class="item-title photo-title">Photography.</p>
-		</a>
-		<!-- <p class="bloop soon-title">Coming soon!</p> -->
-	</div>
+	<!-- start of photography -->
+	<div class="core-photos">
 
-	<div class="item item03">
-		<a href="#doodles.html">
-			<!-- <img src="images/citytrial.jpg" alt="city"> -->
-			<video autoplay loop muted playsinline width="320" height="320">
-		  		<source src="images/meme.mp4" type="video/mp4">
-		  	</video>
-		  	<p class="item-title art-title">Art and stuff.</p>
-		  		<p class="bloop soon-title">Coming soon!</p>
-		</a>
+		<div class="fotos-1 container">
+			<div class="location"><p>portugal 2018</p></div>
+			<div class="foto-title"><h1>barren.</h1></div>
+			<div class="foto-set-1">
+				<img src="images/fotos/port/one.JPG">
+				<img src="images/fotos/port/two.JPG">
+				<img src="images/fotos/port/three.JPG">
+			</div>
+		</div>
 
-	</div>
-	
-</div>
-<!-- end of explore-grid -->
+		<div class="fotos-2 container">
+			<div class="location"><p>portugal 2018 part II.</p></div>
+			<div class="foto-title"><h1>scenes.</h1></div>
+			<div class="foto-set-2">
+				<img src="images/fotos/port/tree.JPG" class="img-1">
+				<img src="images/fotos/port/town.JPG" class="img-2">
+				<img src="images/fotos/port/tails.JPG" class="img-4">
+				<img src="images/fotos/port/romance.JPG" class="img-3" id="romance">
+				<img src="images/fotos/port/clouds.JPG" class="img-5">
+			</div>
+		</div>
 
-	<div class="explore-main">
-		<!-- <h1>A place for my other hobbies.</h1> -->
-		<p class="explore-blurb">Some other things I like: my friends, rainy days (like emo, POURING rain and I will still like it), archeology, stickers because I'm really 5 y/o, cinematography and laughing ☺︎ </p>
-	</div>
+		<div class="fotos-3 container">
+			<div class="location"><p>portugal 2018 part III.</p></div>
+			<div class="foto-title"><h1>photosynthesis.</h1></div>
+			<div class="foto-set-3">
+				<img src="images/fotos/port/greenhouse.JPG" class="greenhouse-img">
+				<div class="plant-flex">
+					<img src="images/fotos/port/spike.JPG">
+					<img src="images/fotos/port/flower.JPG">
+				</div>
+			</div>
+		</div>
+
+	</div><!-- end of photography -->
+
 
 </main>
 
@@ -102,7 +126,7 @@
 		<a href="https://www.linkedin.com/in/peijia-ding/"><img src="images/social-media/linkedin.svg" alt="linkedin"></a>
 		<a href="https://medium.com/"><img src="images/social-media/medium.svg" alt="medium"></a>
 	  </div>
-      <p> &copy; 2018 Peijia Ding - created + coded with &#9825; -</p>
+      <p> &copy; 2019 Peijia Ding - created + coded with &#9825; -</p>
 	</footer>
 </div><!-- end of wrapper -->
 

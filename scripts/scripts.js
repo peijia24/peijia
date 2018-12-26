@@ -53,7 +53,7 @@ window.onscroll = function() {myFunction()};
 
 var introBox = document.getElementById('hero-section');
 // var removeOrange = document.getElementById('orange');
-var changePoint = 200;
+var changePoint = 250;
 
 // removeOrange.addEventListener('transitionend', hideEl);
 
