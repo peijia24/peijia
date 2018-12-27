@@ -174,7 +174,7 @@ margin-left: 30%;
 
 .hero-text p {
   color: black;
-  font-size: 1.7em;
+  font-size: 1.2em;
   margin-top: 20px;
   line-height: 1.6em;
   letter-spacing: 2px;
@@ -598,7 +598,7 @@ margin-right: 80px;
 
 .portfolio-pieces {
   width: 600px;
-  margin-top: 490px;
+  margin-top: 360px;
 }
 
 .visible-title {
@@ -620,7 +620,7 @@ margin-right: 80px;
 
 .hero-text p {
   padding-left: 0px;
-  font-size: 2em;
+  font-size: 1.4em;
   line-height: 1.8em;
   color: black;
   background-color: transparent;

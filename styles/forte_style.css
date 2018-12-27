@@ -33,8 +33,14 @@ h2, h4 {
 }
 
 a {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color: #4C5B7F;
 }
 
 .text a {
@@ -108,14 +114,14 @@ img {
 }
 
 footer p{
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 0.85em;
   text-align: center;
   margin: 0;
 }
 
 button {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
 
@@ -226,7 +232,7 @@ margin-right: 35px;
   text-align: center;
   letter-spacing: 0.3em;
   font-size: 1.9em;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0 auto;
   margin-top: 25px;
@@ -245,8 +251,8 @@ margin-right: 35px;
  /*margin: 0 auto;*/
   text-align: center;
   font-size: 0.9em;
-  font-family: 'Cutive Mono', monospace;
-
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
 }
 
 .open-img {
@@ -278,7 +284,7 @@ margin-right: 35px;
 
 .section-title {
   font-size: 2.5em;
-  font-weight: bold;
+  font-weight: 500;
  /* padding-bottom: 5px;
   border-bottom: black solid 1px;*/
 }
