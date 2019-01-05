@@ -1,10 +1,9 @@
-@font-face {
+/*@font-face {
   font-family: 'Apercu';
-  src: url('../fonts/apercu-regular-webfont.ttf'); /* IE9 Compat Modes */
-  src: url('../fonts/apercu-medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/apercu-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/apercu-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+  src: url('../fonts/apercu-regular-webfont.ttf'); 
+  src: url('../fonts/apercu-medium.woff2') format('woff2'),
+       url('../fonts/apercu-regular-webfont.woff') format('woff'), 
+       url('../fonts/apercu-regular-webfont.ttf')  format('truetype'), 
 
 
 @font-face {
@@ -22,4 +21,22 @@
     src: url(../fonts/apercu-medium-webfont.eot);
     src: url(../fonts/apercu-medium-webfont.woff) format("woff"),
         url(../fonts/apercu-medium-webfont.ttf) format("truetype")
+}
+*/
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/avenir-book-webfont.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/avenir-book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/avenir-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/avenir-book-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: 500;
+    src: url(../fonts/avenir-medium-webfont.eot);
+    src: url(../fonts/avenir-medium-webfont.woff) format("woff"),
+        url(../fonts/avenir-medium-webfont.ttf) format("truetype")
 }

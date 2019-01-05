@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font-family: 'Apercu', sans-serif;
+  /*font-family: 'Apercu', sans-serif;*/
+  font-family: 'Avenir', sans-serif;
   margin: 0;
   display: flex;
   background-color: #fff9f9;
@@ -309,15 +310,15 @@ margin-left: 30%;
 }
 
 .overlay.comm-overlay {
-  background-color: #F2B27A;
+  background-color: #EE6B78;
 }
 
 .box-title.textthis.comm-t {
-  color: #AE3429;
+  color: #FFCA67;
 }
 
 .text.comm-des {
-  color: #AE3429;
+  color: #FFCA67;
 }
 
 /* future projects */

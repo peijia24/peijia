@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  font-family: 'Apercu', 'Karla', sans-serif;
+  /*font-family: 'Apercu', 'Karla', sans-serif;*/
+  font-family: 'Avenir', sans-serif;
   margin: 0;
   display: flex;
   background-color: #fff9f9;

@@ -12,6 +12,27 @@
 	height: auto;
 }
 
+.goals {
+	width: 800px;
+}
+
+.bizgoals {
+	border: 2px solid #DC5C6B;
+}
+
+.sitegoals {
+	border: 2px solid #DC5C6B;
+}
+
+.bottom {
+	background-color: #FFE68B;
+}
+
+/*.goals {
+	width: 280px;
+	margin: 15px;
+}*/
+
 /*.mockup-tgt {
 	display: flex;
 	justify-content: space-between;
