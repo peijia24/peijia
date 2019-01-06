@@ -580,6 +580,7 @@ margin-right: 80px;
   width: 70%;
   position: absolute;
   margin-left: 90px;
+  padding-top: 0;
 }
 
 .hero-text p {
@@ -621,7 +622,7 @@ margin-right: 80px;
 
 .hero-text p {
   padding-left: 0px;
-  font-size: 1.4em;
+  font-size: 1.6em;
   line-height: 1.8em;
   color: black;
   background-color: transparent;
